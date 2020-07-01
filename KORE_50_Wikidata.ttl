@@ -1,0 +1,2817 @@
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ns1: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://kit.edu/KORE_50/Wikidata> a nif:ContextCollection ;
+    nif:hasContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL01#char=0,>,
+        <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL02#char=0,>,
+        <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL03#char=0,>,
+        <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL04#char=0,>,
+        <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL05#char=0,>,
+        <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL06#char=0,>,
+        <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL07#char=0,>,
+        <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL08#char=0,>,
+        <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL09#char=0,>,
+        <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL10#char=0,>,
+        <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL11#char=0,>,
+        <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL12#char=0,>,
+        <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL13#char=0,>,
+        <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL14#char=0,>,
+        <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL15#char=0,>,
+        <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL16#char=0,>,
+        <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL17#char=0,>,
+        <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL18#char=0,>,
+        <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL19#char=0,>,
+        <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL20#char=0,>,
+        <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL21#char=0,>,
+        <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL22#char=0,>,
+        <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL23#char=0,>,
+        <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL24#char=0,>,
+        <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL25#char=0,>,
+        <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL26#char=0,>,
+        <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL27#char=0,>,
+        <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL28#char=0,>,
+        <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL29#char=0,>,
+        <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL30#char=0,>,
+        <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL31#char=0,>,
+        <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL32#char=0,>,
+        <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL33#char=0,>,
+        <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL34#char=0,>,
+        <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL35#char=0,>,
+        <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL36#char=0,>,
+        <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL37#char=0,>,
+        <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL38#char=0,>,
+        <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL39#char=0,>,
+        <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL40#char=0,>,
+        <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL41#char=0,>,
+        <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL42#char=0,>,
+        <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL43#char=0,>,
+        <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL44#char=0,>,
+        <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL45#char=0,>,
+        <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL46#char=0,>,
+        <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL47#char=0,>,
+        <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL48#char=0,>,
+        <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL49#char=0,>,
+        <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL50#char=0,> ;
+    ns1:conformsTo <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL01#offset_0_5> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "David" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "5"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL01#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q10520> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL01#offset_10_18> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Victoria" ;
+    nif:beginIndex "10"^^xsd:nonNegativeInteger ;
+    nif:endIndex "18"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL01#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q19810> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL01#offset_25_30> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "their" ;
+    nif:beginIndex "25"^^xsd:nonNegativeInteger ;
+    nif:endIndex "30"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL01#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q7783619> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL01#offset_31_39> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "children" ;
+    nif:beginIndex "31"^^xsd:nonNegativeInteger ;
+    nif:endIndex "39"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL01#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q7569> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL01#offset_40_48> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Brooklyn" ;
+    nif:beginIndex "40"^^xsd:nonNegativeInteger ;
+    nif:endIndex "48"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL01#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q17410449> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL01#offset_50_55> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Romeo" ;
+    nif:beginIndex "50"^^xsd:nonNegativeInteger ;
+    nif:endIndex "55"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL01#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q20426763> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL01#offset_57_61> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Cruz" ;
+    nif:beginIndex "57"^^xsd:nonNegativeInteger ;
+    nif:endIndex "61"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL01#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q21005513> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL01#offset_67_79> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Harper Seven" ;
+    nif:beginIndex "67"^^xsd:nonNegativeInteger ;
+    nif:endIndex "79"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL01#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q21005552> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL02#offset_0_5> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "David" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "5"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL02#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q10520> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL02#offset_10_18> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Victoria" ;
+    nif:beginIndex "10"^^xsd:nonNegativeInteger ;
+    nif:endIndex "18"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL02#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q19810> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL02#offset_34_39> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "their" ;
+    nif:beginIndex "34"^^xsd:nonNegativeInteger ;
+    nif:endIndex "39"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL02#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q7783619> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL02#offset_40_48> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "marriage" ;
+    nif:beginIndex "40"^^xsd:nonNegativeInteger ;
+    nif:endIndex "48"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL02#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q8445> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL03#offset_0_5> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Tiger" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "5"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL03#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q10993> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL03#offset_33_35> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "he" ;
+    nif:beginIndex "33"^^xsd:nonNegativeInteger ;
+    nif:endIndex "35"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL03#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q51929447> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL03#offset_54_58> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Elin" ;
+    nif:beginIndex "54"^^xsd:nonNegativeInteger ;
+    nif:endIndex "58"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL03#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q2320780> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL04#offset_0_5> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Tiger" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "5"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL04#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q10993> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL04#offset_11_14> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "the" ;
+    nif:beginIndex "11"^^xsd:nonNegativeInteger ;
+    nif:endIndex "14"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL04#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q21121474> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL04#offset_15_22> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "US Open" ;
+    nif:beginIndex "15"^^xsd:nonNegativeInteger ;
+    nif:endIndex "22"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL04#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q123577> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL05#offset_0_7> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Madonna" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "7"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL05#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q1744> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL05#offset_15_18> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Eva" ;
+    nif:beginIndex "15"^^xsd:nonNegativeInteger ;
+    nif:endIndex "18"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL05#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q40933> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL05#offset_37_43> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Carlos" ;
+    nif:beginIndex "37"^^xsd:nonNegativeInteger ;
+    nif:endIndex "43"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL05#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q4343020> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL06#offset_17_24> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Madonna" ;
+    nif:beginIndex "17"^^xsd:nonNegativeInteger ;
+    nif:endIndex "24"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL06#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q1744> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL06#offset_32_35> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "the" ;
+    nif:beginIndex "32"^^xsd:nonNegativeInteger ;
+    nif:endIndex "35"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL06#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q21121474> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL06#offset_36_40> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "role" ;
+    nif:beginIndex "36"^^xsd:nonNegativeInteger ;
+    nif:endIndex "40"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL06#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q1707847> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL06#offset_44_47> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "the" ;
+    nif:beginIndex "44"^^xsd:nonNegativeInteger ;
+    nif:endIndex "47"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL06#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q21121474> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL06#offset_48_58> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "First Lady" ;
+    nif:beginIndex "48"^^xsd:nonNegativeInteger ;
+    nif:endIndex "58"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL06#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q203184> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL06#offset_8_15> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "musical" ;
+    nif:beginIndex "8"^^xsd:nonNegativeInteger ;
+    nif:endIndex "15"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL06#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q2743> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL07#offset_0_8> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Angelina" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "8"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL07#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q13909> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL07#offset_10_13> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "her" ;
+    nif:beginIndex "10"^^xsd:nonNegativeInteger ;
+    nif:endIndex "13"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL07#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q1270787> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL07#offset_14_20> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "father" ;
+    nif:beginIndex "14"^^xsd:nonNegativeInteger ;
+    nif:endIndex "20"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL07#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q7565> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL07#offset_21_24> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Jon" ;
+    nif:beginIndex "21"^^xsd:nonNegativeInteger ;
+    nif:endIndex "24"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL07#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q167520> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL07#offset_30_33> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "her" ;
+    nif:beginIndex "30"^^xsd:nonNegativeInteger ;
+    nif:endIndex "33"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL07#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q1270787> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL07#offset_34_41> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "partner" ;
+    nif:beginIndex "34"^^xsd:nonNegativeInteger ;
+    nif:endIndex "41"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL07#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/wiki/Q728646> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL07#offset_42_46> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Brad" ;
+    nif:beginIndex "42"^^xsd:nonNegativeInteger ;
+    nif:endIndex "46"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL07#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q35332> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL07#offset_47_52> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "never" ;
+    nif:beginIndex "47"^^xsd:nonNegativeInteger ;
+    nif:endIndex "52"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL07#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q21075795> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL07#offset_72_75> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "the" ;
+    nif:beginIndex "72"^^xsd:nonNegativeInteger ;
+    nif:endIndex "75"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL07#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q21121474> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL07#offset_81_86> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "movie" ;
+    nif:beginIndex "81"^^xsd:nonNegativeInteger ;
+    nif:endIndex "86"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL07#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q11424> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL08#offset_0_5> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Heidi" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "5"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL08#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q60036> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL08#offset_10_13> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "her" ;
+    nif:beginIndex "10"^^xsd:nonNegativeInteger ;
+    nif:endIndex "13"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL08#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q1270787> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL08#offset_14_21> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "husband" ;
+    nif:beginIndex "14"^^xsd:nonNegativeInteger ;
+    nif:endIndex "21"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL08#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q212878> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL08#offset_22_26> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Seal" ;
+    nif:beginIndex "22"^^xsd:nonNegativeInteger ;
+    nif:endIndex "26"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL08#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q218091> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL08#offset_35_40> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Vegas" ;
+    nif:beginIndex "35"^^xsd:nonNegativeInteger ;
+    nif:endIndex "40"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL08#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q23768> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL09#offset_0_5> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Paris" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "5"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL09#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q47899> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL09#offset_10_13> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Kim" ;
+    nif:beginIndex "10"^^xsd:nonNegativeInteger ;
+    nif:endIndex "13"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL09#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q186304> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL09#offset_31_39> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "It Girls" ;
+    nif:beginIndex "31"^^xsd:nonNegativeInteger ;
+    nif:endIndex "39"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL09#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q1674997> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL09#offset_48_57> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "sex tapes" ;
+    nif:beginIndex "48"^^xsd:nonNegativeInteger ;
+    nif:endIndex "57"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL09#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q931552> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL09#offset_61_64> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "the" ;
+    nif:beginIndex "61"^^xsd:nonNegativeInteger ;
+    nif:endIndex "64"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL09#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q21121474> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL09#offset_65_73> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Internet" ;
+    nif:beginIndex "65"^^xsd:nonNegativeInteger ;
+    nif:endIndex "73"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL09#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q75> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL10#offset_0_6> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Justin" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "6"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL10#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q34086> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL10#offset_21_25> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Kate" ;
+    nif:beginIndex "21"^^xsd:nonNegativeInteger ;
+    nif:endIndex "25"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL10#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q42493> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL10#offset_36_39> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "the" ;
+    nif:beginIndex "36"^^xsd:nonNegativeInteger ;
+    nif:endIndex "39"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL10#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q21121474> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL10#offset_53_59> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "people" ;
+    nif:beginIndex "53"^^xsd:nonNegativeInteger ;
+    nif:endIndex "59"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL10#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q2472587> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL10#offset_68_71> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "MTV" ;
+    nif:beginIndex "68"^^xsd:nonNegativeInteger ;
+    nif:endIndex "71"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL10#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q43359> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL10#offset_76_83> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Twitter" ;
+    nif:beginIndex "76"^^xsd:nonNegativeInteger ;
+    nif:endIndex "83"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL10#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q918> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL10#offset_8_15> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Stefani" ;
+    nif:beginIndex "8"^^xsd:nonNegativeInteger ;
+    nif:endIndex "15"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL10#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q19848> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL11#offset_0_5> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Dylan" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "5"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL11#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q392> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL11#offset_16_25> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Hurricane" ;
+    nif:beginIndex "16"^^xsd:nonNegativeInteger ;
+    nif:endIndex "25"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL11#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q1419882> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL11#offset_32_35> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "the" ;
+    nif:beginIndex "32"^^xsd:nonNegativeInteger ;
+    nif:endIndex "35"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL11#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q21121474> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL11#offset_50_56> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Carter" ;
+    nif:beginIndex "50"^^xsd:nonNegativeInteger ;
+    nif:endIndex "56"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL11#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q452772> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL11#offset_63_66> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "his" ;
+    nif:beginIndex "63"^^xsd:nonNegativeInteger ;
+    nif:endIndex "66"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL11#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q1196074> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL11#offset_67_72> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "album" ;
+    nif:beginIndex "67"^^xsd:nonNegativeInteger ;
+    nif:endIndex "72"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL11#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q482994> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL11#offset_73_79> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Desire" ;
+    nif:beginIndex "73"^^xsd:nonNegativeInteger ;
+    nif:endIndex "79"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL11#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q1200744> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL12#offset_0_6> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Desire" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "6"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL12#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q1200744> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL12#offset_18_22> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "duet" ;
+    nif:beginIndex "18"^^xsd:nonNegativeInteger ;
+    nif:endIndex "22"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL12#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q109940> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL12#offset_28_34> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Harris" ;
+    nif:beginIndex "28"^^xsd:nonNegativeInteger ;
+    nif:endIndex "34"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL12#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q231286> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL12#offset_38_41> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "the" ;
+    nif:beginIndex "38"^^xsd:nonNegativeInteger ;
+    nif:endIndex "41"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL12#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q21121474> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL12#offset_42_46> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "song" ;
+    nif:beginIndex "42"^^xsd:nonNegativeInteger ;
+    nif:endIndex "46"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL12#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q7366> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL12#offset_47_51> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Joey" ;
+    nif:beginIndex "47"^^xsd:nonNegativeInteger ;
+    nif:endIndex "51"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL12#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q6214252> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL13#offset_0_5> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Three" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "5"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL13#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q201> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL13#offset_22_32> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "guitarists" ;
+    nif:beginIndex "22"^^xsd:nonNegativeInteger ;
+    nif:endIndex "32"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL13#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q855091> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL13#offset_41_46> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "their" ;
+    nif:beginIndex "41"^^xsd:nonNegativeInteger ;
+    nif:endIndex "46"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL13#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q7783619> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL13#offset_47_53> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "career" ;
+    nif:beginIndex "47"^^xsd:nonNegativeInteger ;
+    nif:endIndex "53"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL13#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q282049> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL13#offset_66_70> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "band" ;
+    nif:beginIndex "66"^^xsd:nonNegativeInteger ;
+    nif:endIndex "70"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL13#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q215380> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL13#offset_73_80> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Clapton" ;
+    nif:beginIndex "73"^^xsd:nonNegativeInteger ;
+    nif:endIndex "80"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL13#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q48187> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL13#offset_82_86> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Beck" ;
+    nif:beginIndex "82"^^xsd:nonNegativeInteger ;
+    nif:endIndex "86"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL13#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q192474> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL13#offset_92_96> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Page" ;
+    nif:beginIndex "92"^^xsd:nonNegativeInteger ;
+    nif:endIndex "96"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL13#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q165467> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL13#offset_9_12> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "the" ;
+    nif:beginIndex "9"^^xsd:nonNegativeInteger ;
+    nif:endIndex "12"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL13#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q21121474> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL14#offset_0_5> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Allen" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "5"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL14#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q162005> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL14#offset_109_131> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "science fiction movies" ;
+    nif:beginIndex "109"^^xsd:nonNegativeInteger ;
+    nif:endIndex "131"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL14#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q471839> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL14#offset_14_17> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "the" ;
+    nif:beginIndex "14"^^xsd:nonNegativeInteger ;
+    nif:endIndex "17"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL14#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q21121474> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL14#offset_18_21> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "EMP" ;
+    nif:beginIndex "18"^^xsd:nonNegativeInteger ;
+    nif:endIndex "21"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL14#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q1384356> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL14#offset_25_32> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Seattle" ;
+    nif:beginIndex "25"^^xsd:nonNegativeInteger ;
+    nif:endIndex "32"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL14#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q5083> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL14#offset_34_39> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "which" ;
+    nif:beginIndex "34"^^xsd:nonNegativeInteger ;
+    nif:endIndex "39"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL14#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q12892337> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL14#offset_49_60> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "exhibitions" ;
+    nif:beginIndex "49"^^xsd:nonNegativeInteger ;
+    nif:endIndex "60"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL14#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q464980> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL14#offset_67_74> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Hendrix" ;
+    nif:beginIndex "67"^^xsd:nonNegativeInteger ;
+    nif:endIndex "74"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL14#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q5928> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL14#offset_79_84> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Dylan" ;
+    nif:beginIndex "79"^^xsd:nonNegativeInteger ;
+    nif:endIndex "84"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL14#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q392> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL15#offset_108_115> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Santana" ;
+    nif:beginIndex "108"^^xsd:nonNegativeInteger ;
+    nif:endIndex "115"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL15#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q819016> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL15#offset_120_128> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Columbia" ;
+    nif:beginIndex "120"^^xsd:nonNegativeInteger ;
+    nif:endIndex "128"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL15#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q183387> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL15#offset_144_148> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Sony" ;
+    nif:beginIndex "144"^^xsd:nonNegativeInteger ;
+    nif:endIndex "148"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL15#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q41187> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL15#offset_152_155> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "the" ;
+    nif:beginIndex "152"^^xsd:nonNegativeInteger ;
+    nif:endIndex "155"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL15#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q21121474> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL15#offset_156_161> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "1980s" ;
+    nif:beginIndex "156"^^xsd:nonNegativeInteger ;
+    nif:endIndex "161"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL15#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q34644> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL15#offset_26_29> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "the" ;
+    nif:beginIndex "26"^^xsd:nonNegativeInteger ;
+    nif:endIndex "29"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL15#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q21121474> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL15#offset_47_56> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "musicians" ;
+    nif:beginIndex "47"^^xsd:nonNegativeInteger ;
+    nif:endIndex "56"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL15#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q639669> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL15#offset_60_65> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "their" ;
+    nif:beginIndex "60"^^xsd:nonNegativeInteger ;
+    nif:endIndex "65"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL15#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q7783619> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL15#offset_66_72> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "decade" ;
+    nif:beginIndex "66"^^xsd:nonNegativeInteger ;
+    nif:endIndex "72"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL15#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q39911> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL15#offset_82_89> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Sinatra" ;
+    nif:beginIndex "82"^^xsd:nonNegativeInteger ;
+    nif:endIndex "89"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL15#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q40912> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL15#offset_91_96> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Dylan" ;
+    nif:beginIndex "91"^^xsd:nonNegativeInteger ;
+    nif:endIndex "96"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL15#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q392> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL15#offset_98_102> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Joel" ;
+    nif:beginIndex "98"^^xsd:nonNegativeInteger ;
+    nif:endIndex "102"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL15#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q194333> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL16#offset_118_121> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "his" ;
+    nif:beginIndex "118"^^xsd:nonNegativeInteger ;
+    nif:endIndex "121"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL16#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q1196074> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL16#offset_122_126> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "home" ;
+    nif:beginIndex "122"^^xsd:nonNegativeInteger ;
+    nif:endIndex "126"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL16#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q699405> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL16#offset_132_135> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "the" ;
+    nif:beginIndex "132"^^xsd:nonNegativeInteger ;
+    nif:endIndex "135"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL16#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q21121474> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL16#offset_136_140> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "help" ;
+    nif:beginIndex "136"^^xsd:nonNegativeInteger ;
+    nif:endIndex "140"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL16#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q1643184> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL16#offset_144_149> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Rubin" ;
+    nif:beginIndex "144"^^xsd:nonNegativeInteger ;
+    nif:endIndex "149"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL16#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q587361> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL16#offset_19_24> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "years" ;
+    nif:beginIndex "19"^^xsd:nonNegativeInteger ;
+    nif:endIndex "24"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL16#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q577> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL16#offset_32_39> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "country" ;
+    nif:beginIndex "32"^^xsd:nonNegativeInteger ;
+    nif:endIndex "39"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL16#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q83440> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL16#offset_40_44> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "star" ;
+    nif:beginIndex "40"^^xsd:nonNegativeInteger ;
+    nif:endIndex "44"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL16#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q15982595> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL16#offset_45_49> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Cash" ;
+    nif:beginIndex "45"^^xsd:nonNegativeInteger ;
+    nif:endIndex "49"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL16#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q42775> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL16#offset_67_75> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "comeback" ;
+    nif:beginIndex "67"^^xsd:nonNegativeInteger ;
+    nif:endIndex "75"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL16#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q1113939> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL16#offset_81_84> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "his" ;
+    nif:beginIndex "81"^^xsd:nonNegativeInteger ;
+    nif:endIndex "84"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL16#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q1196074> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL16#offset_85_104> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "American Recordings" ;
+    nif:beginIndex "85"^^xsd:nonNegativeInteger ;
+    nif:endIndex "104"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL16#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q466622> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL17#offset_0_3> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "The" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "3"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL17#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q21121474> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL17#offset_20_25> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Homme" ;
+    nif:beginIndex "20"^^xsd:nonNegativeInteger ;
+    nif:endIndex "25"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL17#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q1708504> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL17#offset_27_32> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Grohl" ;
+    nif:beginIndex "27"^^xsd:nonNegativeInteger ;
+    nif:endIndex "32"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL17#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q12006> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL17#offset_38_43> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Jones" ;
+    nif:beginIndex "38"^^xsd:nonNegativeInteger ;
+    nif:endIndex "43"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL17#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q190243> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL17#offset_4_9> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "group" ;
+    nif:beginIndex "4"^^xsd:nonNegativeInteger ;
+    nif:endIndex "9"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL17#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q215380> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL17#offset_83_86> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "the" ;
+    nif:beginIndex "83"^^xsd:nonNegativeInteger ;
+    nif:endIndex "86"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL17#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q21121474> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL17#offset_87_91> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "name" ;
+    nif:beginIndex "87"^^xsd:nonNegativeInteger ;
+    nif:endIndex "91"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL17#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q82799> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL18#offset_0_4> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Jobs" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "4"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL18#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q19837> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL18#offset_23_26> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "the" ;
+    nif:beginIndex "23"^^xsd:nonNegativeInteger ;
+    nif:endIndex "26"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL18#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q21121474> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL18#offset_27_31> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "late" ;
+    nif:beginIndex "27"^^xsd:nonNegativeInteger ;
+    nif:endIndex "31"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL18#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q40719766> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL18#offset_32_37> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "1970s" ;
+    nif:beginIndex "32"^^xsd:nonNegativeInteger ;
+    nif:endIndex "37"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL18#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q35014> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL18#offset_43_46> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "she" ;
+    nif:beginIndex "43"^^xsd:nonNegativeInteger ;
+    nif:endIndex "46"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL18#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q51929447> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL18#offset_60_63> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "his" ;
+    nif:beginIndex "60"^^xsd:nonNegativeInteger ;
+    nif:endIndex "63"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL18#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q1196074> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL18#offset_64_72> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Stanford" ;
+    nif:beginIndex "64"^^xsd:nonNegativeInteger ;
+    nif:endIndex "72"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL18#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q41506> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL18#offset_9_13> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Baez" ;
+    nif:beginIndex "9"^^xsd:nonNegativeInteger ;
+    nif:endIndex "13"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL18#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q131725> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL19#offset_0_3> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "The" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "3"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL19#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q21121474> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL19#offset_100_105> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Davis" ;
+    nif:beginIndex "100"^^xsd:nonNegativeInteger ;
+    nif:endIndex "105"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL19#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q93341> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL19#offset_107_114> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Chicago" ;
+    nif:beginIndex "107"^^xsd:nonNegativeInteger ;
+    nif:endIndex "114"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL19#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q371938> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL19#offset_120_128> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Mitchell" ;
+    nif:beginIndex "120"^^xsd:nonNegativeInteger ;
+    nif:endIndex "128"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL19#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q205721> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL19#offset_30_34> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "1970" ;
+    nif:beginIndex "30"^^xsd:nonNegativeInteger ;
+    nif:endIndex "34"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL19#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q2474> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL19#offset_39_42> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "the" ;
+    nif:beginIndex "39"^^xsd:nonNegativeInteger ;
+    nif:endIndex "42"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL19#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q21121474> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL19#offset_4_26> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Isle of Wight festival" ;
+    nif:beginIndex "4"^^xsd:nonNegativeInteger ;
+    nif:endIndex "26"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL19#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q944603> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL19#offset_58_62> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "time" ;
+    nif:beginIndex "58"^^xsd:nonNegativeInteger ;
+    nif:endIndex "62"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL19#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q11471> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL19#offset_75_84> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Woodstock" ;
+    nif:beginIndex "75"^^xsd:nonNegativeInteger ;
+    nif:endIndex "84"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL19#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q164815> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL20#offset_0_4> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Eric" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "4"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL20#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q48187> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL20#offset_23_28> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Blues" ;
+    nif:beginIndex "23"^^xsd:nonNegativeInteger ;
+    nif:endIndex "28"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL20#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q9759> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL20#offset_40_44> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Rock" ;
+    nif:beginIndex "40"^^xsd:nonNegativeInteger ;
+    nif:endIndex "44"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL20#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q11399> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL20#offset_49_51> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "he" ;
+    nif:beginIndex "49"^^xsd:nonNegativeInteger ;
+    nif:endIndex "51"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL20#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q1196074> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL20#offset_59_73> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Mayall 's band" ;
+    nif:beginIndex "59"^^xsd:nonNegativeInteger ;
+    nif:endIndex "73"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL20#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q886072> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL21#offset_10_15> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "death" ;
+    nif:beginIndex "10"^^xsd:nonNegativeInteger ;
+    nif:endIndex "15"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL21#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q4> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL21#offset_19_24> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Steve" ;
+    nif:beginIndex "19"^^xsd:nonNegativeInteger ;
+    nif:endIndex "24"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL21#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q19837> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL21#offset_26_29> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "the" ;
+    nif:beginIndex "26"^^xsd:nonNegativeInteger ;
+    nif:endIndex "29"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL21#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q21121474> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL21#offset_37_40> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "CEO" ;
+    nif:beginIndex "37"^^xsd:nonNegativeInteger ;
+    nif:endIndex "40"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL21#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q484876> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL21#offset_44_49> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Apple" ;
+    nif:beginIndex "44"^^xsd:nonNegativeInteger ;
+    nif:endIndex "49"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL21#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q312> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL21#offset_51_54> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "his" ;
+    nif:beginIndex "51"^^xsd:nonNegativeInteger ;
+    nif:endIndex "54"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL21#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q1196074> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL21#offset_55_74> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "commencement speech" ;
+    nif:beginIndex "55"^^xsd:nonNegativeInteger ;
+    nif:endIndex "74"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL21#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q5152362> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL21#offset_6_9> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "the" ;
+    nif:beginIndex "6"^^xsd:nonNegativeInteger ;
+    nif:endIndex "9"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL21#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q21121474> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL21#offset_78_86> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Stanford" ;
+    nif:beginIndex "78"^^xsd:nonNegativeInteger ;
+    nif:endIndex "86"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL21#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q41506> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL22#offset_30_38> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Stanford" ;
+    nif:beginIndex "30"^^xsd:nonNegativeInteger ;
+    nif:endIndex "38"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL22#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q41506> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL22#offset_3_7> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "1980" ;
+    nif:beginIndex "3"^^xsd:nonNegativeInteger ;
+    nif:endIndex "7"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL22#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q2439> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL22#offset_47_56> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Microsoft" ;
+    nif:beginIndex "47"^^xsd:nonNegativeInteger ;
+    nif:endIndex "56"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL22#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q2283> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL22#offset_58_61> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "the" ;
+    nif:beginIndex "58"^^xsd:nonNegativeInteger ;
+    nif:endIndex "61"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL22#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q21121474> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL22#offset_62_69> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "company" ;
+    nif:beginIndex "62"^^xsd:nonNegativeInteger ;
+    nif:endIndex "69"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL22#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q783794> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL22#offset_77_80> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "the" ;
+    nif:beginIndex "77"^^xsd:nonNegativeInteger ;
+    nif:endIndex "80"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL22#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q21121474> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL22#offset_81_105> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Windows operating system" ;
+    nif:beginIndex "81"^^xsd:nonNegativeInteger ;
+    nif:endIndex "105"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL22#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q1406> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL22#offset_9_14> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Steve" ;
+    nif:beginIndex "9"^^xsd:nonNegativeInteger ;
+    nif:endIndex "14"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL22#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q181162> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL23#offset_0_5> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Cairo" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "5"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL23#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q1148740> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL23#offset_10_13> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "the" ;
+    nif:beginIndex "10"^^xsd:nonNegativeInteger ;
+    nif:endIndex "13"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL23#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q21121474> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL23#offset_119_129> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "generation" ;
+    nif:beginIndex "119"^^xsd:nonNegativeInteger ;
+    nif:endIndex "129"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL23#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q213381> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL23#offset_130_146> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "operating system" ;
+    nif:beginIndex "130"^^xsd:nonNegativeInteger ;
+    nif:endIndex "146"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL23#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q9135> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL23#offset_147_151> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "that" ;
+    nif:beginIndex "147"^^xsd:nonNegativeInteger ;
+    nif:endIndex "151"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL23#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q15614918> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL23#offset_14_23> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "code name" ;
+    nif:beginIndex "14"^^xsd:nonNegativeInteger ;
+    nif:endIndex "23"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL23#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q590490> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL23#offset_166_169> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "the" ;
+    nif:beginIndex "166"^^xsd:nonNegativeInteger ;
+    nif:endIndex "169"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL23#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q21121474> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL23#offset_170_176> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "vision" ;
+    nif:beginIndex "170"^^xsd:nonNegativeInteger ;
+    nif:endIndex "176"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL23#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q162668> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL23#offset_180_184> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Bill" ;
+    nif:beginIndex "180"^^xsd:nonNegativeInteger ;
+    nif:endIndex "184"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL23#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q5284> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL23#offset_30_37> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "project" ;
+    nif:beginIndex "30"^^xsd:nonNegativeInteger ;
+    nif:endIndex "37"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL23#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q170584> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL23#offset_41_50> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Microsoft" ;
+    nif:beginIndex "41"^^xsd:nonNegativeInteger ;
+    nif:endIndex "50"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL23#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q2283> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL23#offset_56_60> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "1991" ;
+    nif:beginIndex "56"^^xsd:nonNegativeInteger ;
+    nif:endIndex "60"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL23#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q2062> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL23#offset_64_68> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "1996" ;
+    nif:beginIndex "64"^^xsd:nonNegativeInteger ;
+    nif:endIndex "68"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL23#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q2070> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL23#offset_95_107> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "technologies" ;
+    nif:beginIndex "95"^^xsd:nonNegativeInteger ;
+    nif:endIndex "107"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL23#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q11016> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL24#offset_0_5> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Steve" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "5"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL24#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q19837> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL24#offset_101_110> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "successes" ;
+    nif:beginIndex "101"^^xsd:nonNegativeInteger ;
+    nif:endIndex "110"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL24#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q7632586> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL24#offset_111_115> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "that" ;
+    nif:beginIndex "111"^^xsd:nonNegativeInteger ;
+    nif:endIndex "115"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL24#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q15614918> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL24#offset_124_127> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "the" ;
+    nif:beginIndex "124"^^xsd:nonNegativeInteger ;
+    nif:endIndex "127"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL24#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q21121474> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL24#offset_128_133> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "world" ;
+    nif:beginIndex "128"^^xsd:nonNegativeInteger ;
+    nif:endIndex "133"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL24#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q16502> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL24#offset_134_136> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "we" ;
+    nif:beginIndex "134"^^xsd:nonNegativeInteger ;
+    nif:endIndex "136"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL24#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q51929290> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL24#offset_13_19> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Sergey" ;
+    nif:beginIndex "13"^^xsd:nonNegativeInteger ;
+    nif:endIndex "19"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL24#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q92764> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL24#offset_25_30> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Larry" ;
+    nif:beginIndex "25"^^xsd:nonNegativeInteger ;
+    nif:endIndex "30"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL24#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q4934> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL24#offset_58_68> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "admiration" ;
+    nif:beginIndex "58"^^xsd:nonNegativeInteger ;
+    nif:endIndex "68"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL24#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q2824657> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL24#offset_69_74> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "these" ;
+    nif:beginIndex "69"^^xsd:nonNegativeInteger ;
+    nif:endIndex "74"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL24#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q15614898> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL24#offset_75_79> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "days" ;
+    nif:beginIndex "75"^^xsd:nonNegativeInteger ;
+    nif:endIndex "79"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL24#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q573> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL24#offset_7_11> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Bill" ;
+    nif:beginIndex "7"^^xsd:nonNegativeInteger ;
+    nif:endIndex "11"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL24#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q5284> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL24#offset_84_89> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "their" ;
+    nif:beginIndex "84"^^xsd:nonNegativeInteger ;
+    nif:endIndex "89"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL24#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q7783619> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL25#offset_0_4> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Karl" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "4"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL25#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q30863> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL25#offset_19_24> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "their" ;
+    nif:beginIndex "19"^^xsd:nonNegativeInteger ;
+    nif:endIndex "24"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL25#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q7783619> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL25#offset_9_13> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Theo" ;
+    nif:beginIndex "9"^^xsd:nonNegativeInteger ;
+    nif:endIndex "13"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL25#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q57771> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL26#offset_0_5> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "While" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "5"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL26#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q7993606> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL26#offset_18_29> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "electronics" ;
+    nif:beginIndex "18"^^xsd:nonNegativeInteger ;
+    nif:endIndex "29"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL26#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q11650> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL26#offset_30_37> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "company" ;
+    nif:beginIndex "30"^^xsd:nonNegativeInteger ;
+    nif:endIndex "37"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL26#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q783794> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL26#offset_39_44> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Mango" ;
+    nif:beginIndex "39"^^xsd:nonNegativeInteger ;
+    nif:endIndex "44"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL26#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q136503> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL26#offset_50_58> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "clothing" ;
+    nif:beginIndex "50"^^xsd:nonNegativeInteger ;
+    nif:endIndex "58"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL26#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q11460> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL26#offset_67_73> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Orange" ;
+    nif:beginIndex "67"^^xsd:nonNegativeInteger ;
+    nif:endIndex "73"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL26#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q1431486> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL26#offset_6_11> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Apple" ;
+    nif:beginIndex "6"^^xsd:nonNegativeInteger ;
+    nif:endIndex "11"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL26#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q312> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL26#offset_79_92> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "communication" ;
+    nif:beginIndex "79"^^xsd:nonNegativeInteger ;
+    nif:endIndex "92"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL26#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q11024> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL27#offset_0_3> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Sam" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "3"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL27#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q363124> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL27#offset_103_106> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "his" ;
+    nif:beginIndex "103"^^xsd:nonNegativeInteger ;
+    nif:endIndex "106"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL27#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q1196074> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL27#offset_107_114> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "ability" ;
+    nif:beginIndex "107"^^xsd:nonNegativeInteger ;
+    nif:endIndex "114"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL27#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q1347367> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL27#offset_122_132> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "businesses" ;
+    nif:beginIndex "122"^^xsd:nonNegativeInteger ;
+    nif:endIndex "132"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL27#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q4830453> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL27#offset_133_137> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "that" ;
+    nif:beginIndex "133"^^xsd:nonNegativeInteger ;
+    nif:endIndex "137"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL27#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q15614918> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL27#offset_138_144> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "others" ;
+    nif:beginIndex "138"^^xsd:nonNegativeInteger ;
+    nif:endIndex "144"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL27#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q55107540> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL27#offset_23_43> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Equity International" ;
+    nif:beginIndex "23"^^xsd:nonNegativeInteger ;
+    nif:endIndex "43"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL27#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q5384677> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL27#offset_55_67> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "the nickname" ;
+    nif:beginIndex "55"^^xsd:nonNegativeInteger ;
+    nif:endIndex "67"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL27#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q49614> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL27#offset_5_8> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "the" ;
+    nif:beginIndex "5"^^xsd:nonNegativeInteger ;
+    nif:endIndex "8"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL27#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q49614> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL27#offset_9_19> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "co-founder" ;
+    nif:beginIndex "9"^^xsd:nonNegativeInteger ;
+    nif:endIndex "19"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL27#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q45916492> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL28#offset_0_5> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Pixar" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "5"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL28#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q127552> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL28#offset_15_19> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Cars" ;
+    nif:beginIndex "15"^^xsd:nonNegativeInteger ;
+    nif:endIndex "19"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL28#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q5046850> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL28#offset_25_29> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "John" ;
+    nif:beginIndex "25"^^xsd:nonNegativeInteger ;
+    nif:endIndex "29"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL28#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q269214> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL28#offset_39_41> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "it" ;
+    nif:beginIndex "39"^^xsd:nonNegativeInteger ;
+    nif:endIndex "41"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL28#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q51929447> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL29#offset_0_4> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Mars" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "4"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL29#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q31305> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL29#offset_18_24> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Bounty" ;
+    nif:beginIndex "18"^^xsd:nonNegativeInteger ;
+    nif:endIndex "24"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL29#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q895167> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL29#offset_33_42> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "chocolate" ;
+    nif:beginIndex "33"^^xsd:nonNegativeInteger ;
+    nif:endIndex "42"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL29#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q195> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL29#offset_6_12> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Galaxy" ;
+    nif:beginIndex "6"^^xsd:nonNegativeInteger ;
+    nif:endIndex "12"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL29#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q16242180> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL30#offset_0_5> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Bosch" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "5"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL30#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q234021> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL30#offset_10_15> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Sharp" ;
+    nif:beginIndex "10"^^xsd:nonNegativeInteger ;
+    nif:endIndex "15"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL30#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q53227> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL30#offset_25_40> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "home appliances" ;
+    nif:beginIndex "25"^^xsd:nonNegativeInteger ;
+    nif:endIndex "40"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL30#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q212920> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL30#offset_51_60> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "companies" ;
+    nif:beginIndex "51"^^xsd:nonNegativeInteger ;
+    nif:endIndex "60"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL30#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q783794> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL31#offset_0_4> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "City" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "4"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL31#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q50602> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL31#offset_11_12> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "2" ;
+    nif:beginIndex "11"^^xsd:nonNegativeInteger ;
+    nif:endIndex "12"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL31#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q200> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL31#offset_21_24> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "the" ;
+    nif:beginIndex "21"^^xsd:nonNegativeInteger ;
+    nif:endIndex "24"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL31#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q21121474> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL31#offset_25_30> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Spurs" ;
+    nif:beginIndex "25"^^xsd:nonNegativeInteger ;
+    nif:endIndex "30"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL31#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q18741> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL31#offset_9_10> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "3" ;
+    nif:beginIndex "9"^^xsd:nonNegativeInteger ;
+    nif:endIndex "10"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL31#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q201> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL32#offset_0_11> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "The Gunners" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "11"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL32#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q9617> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL32#offset_12_15> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "now" ;
+    nif:beginIndex "12"^^xsd:nonNegativeInteger ;
+    nif:endIndex "15"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL32#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q193168> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL32#offset_21_26> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "their" ;
+    nif:beginIndex "21"^^xsd:nonNegativeInteger ;
+    nif:endIndex "26"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL32#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q7783619> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL32#offset_27_31> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "home" ;
+    nif:beginIndex "27"^^xsd:nonNegativeInteger ;
+    nif:endIndex "31"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL32#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q7743> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL32#offset_32_39> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "matches" ;
+    nif:beginIndex "32"^^xsd:nonNegativeInteger ;
+    nif:endIndex "39"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL32#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q13406554> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL32#offset_43_46> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "the" ;
+    nif:beginIndex "43"^^xsd:nonNegativeInteger ;
+    nif:endIndex "46"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL32#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q21121474> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL32#offset_47_55> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Emirates" ;
+    nif:beginIndex "47"^^xsd:nonNegativeInteger ;
+    nif:endIndex "55"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL32#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q163995> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL33#offset_0_8> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Atletico" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "8"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL33#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q8701> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL33#offset_34_38> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Real" ;
+    nif:beginIndex "34"^^xsd:nonNegativeInteger ;
+    nif:endIndex "38"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL33#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q8682> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL34#offset_0_6> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Müller" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "6"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL34#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q43666> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL34#offset_16_24> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "hattrick" ;
+    nif:beginIndex "16"^^xsd:nonNegativeInteger ;
+    nif:endIndex "24"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL34#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q123086> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL34#offset_33_40> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "England" ;
+    nif:beginIndex "33"^^xsd:nonNegativeInteger ;
+    nif:endIndex "40"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL34#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q47762> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL35#offset_0_6> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Thomas" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "6"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL35#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q43666> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL35#offset_11_16> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Mario" ;
+    nif:beginIndex "11"^^xsd:nonNegativeInteger ;
+    nif:endIndex "16"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL35#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q45766> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL35#offset_21_29> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "strikers" ;
+    nif:beginIndex "21"^^xsd:nonNegativeInteger ;
+    nif:endIndex "29"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL35#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q280658> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL35#offset_41_47> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Munich" ;
+    nif:beginIndex "41"^^xsd:nonNegativeInteger ;
+    nif:endIndex "47"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL35#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q15789> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL36#offset_0_4> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Haug" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "4"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL36#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q60674> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL36#offset_19_27> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Red Bull" ;
+    nif:beginIndex "19"^^xsd:nonNegativeInteger ;
+    nif:endIndex "27"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL36#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q173663> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL37#offset_0_6> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Völler" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "6"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL37#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q44464> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL37#offset_12_17> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "never" ;
+    nif:beginIndex "12"^^xsd:nonNegativeInteger ;
+    nif:endIndex "17"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL37#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q21075795> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL37#offset_25_28> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "the" ;
+    nif:beginIndex "25"^^xsd:nonNegativeInteger ;
+    nif:endIndex "28"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL37#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q21121474> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL37#offset_29_34> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "match" ;
+    nif:beginIndex "29"^^xsd:nonNegativeInteger ;
+    nif:endIndex "34"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL37#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q16510064> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL37#offset_43_49> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Oranje" ;
+    nif:beginIndex "43"^^xsd:nonNegativeInteger ;
+    nif:endIndex "49"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL37#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q47050> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL37#offset_53_61> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "San Siro" ;
+    nif:beginIndex "53"^^xsd:nonNegativeInteger ;
+    nif:endIndex "61"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL37#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q133566> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL38#offset_0_8> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Landgraf" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "8"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL38#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q896190> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL38#offset_13_19> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Meijer" ;
+    nif:beginIndex "13"^^xsd:nonNegativeInteger ;
+    nif:endIndex "19"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL38#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q697779> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL38#offset_30_33> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "the" ;
+    nif:beginIndex "30"^^xsd:nonNegativeInteger ;
+    nif:endIndex "33"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL38#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q21121474> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL38#offset_34_40> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Tivoli" ;
+    nif:beginIndex "34"^^xsd:nonNegativeInteger ;
+    nif:endIndex "40"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL38#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q204484> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL39#offset_0_4> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Yabo" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "4"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL39#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q823074> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL39#offset_15_21> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Aachen" ;
+    nif:beginIndex "15"^^xsd:nonNegativeInteger ;
+    nif:endIndex "21"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL39#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q153535> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL40#offset_0_6> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Hertha" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "6"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL40#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q102720> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL40#offset_19_27> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Dortmund" ;
+    nif:beginIndex "19"^^xsd:nonNegativeInteger ;
+    nif:endIndex "27"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL40#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q41420> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL41#offset_0_5> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Nixon" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "5"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL41#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q9588> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL41#offset_21_30> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Watergate" ;
+    nif:beginIndex "21"^^xsd:nonNegativeInteger ;
+    nif:endIndex "30"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL41#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q42761> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL41#offset_39_42> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "his" ;
+    nif:beginIndex "39"^^xsd:nonNegativeInteger ;
+    nif:endIndex "42"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL41#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q1196074> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL41#offset_43_50> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "success" ;
+    nif:beginIndex "43"^^xsd:nonNegativeInteger ;
+    nif:endIndex "50"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL41#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q7632586> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL41#offset_54_57> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "the" ;
+    nif:beginIndex "54"^^xsd:nonNegativeInteger ;
+    nif:endIndex "57"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL41#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q21121474> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL41#offset_58_77> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Ping-Pong Diplomacy" ;
+    nif:beginIndex "58"^^xsd:nonNegativeInteger ;
+    nif:endIndex "77"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL41#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q1048465> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL41#offset_83_88> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "China" ;
+    nif:beginIndex "83"^^xsd:nonNegativeInteger ;
+    nif:endIndex "88"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL41#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q148> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL42#offset_0_7> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "The Sun" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "7"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL42#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q208875> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL42#offset_12_21> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "The Times" ;
+    nif:beginIndex "12"^^xsd:nonNegativeInteger ;
+    nif:endIndex "21"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL42#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q50008> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL42#offset_31_35> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "that" ;
+    nif:beginIndex "31"^^xsd:nonNegativeInteger ;
+    nif:endIndex "35"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL42#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q15614918> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL42#offset_36_42> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Greece" ;
+    nif:beginIndex "36"^^xsd:nonNegativeInteger ;
+    nif:endIndex "42"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL42#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q41> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL42#offset_62_65> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "the" ;
+    nif:beginIndex "62"^^xsd:nonNegativeInteger ;
+    nif:endIndex "65"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL42#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q21121474> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL42#offset_66_70> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Euro" ;
+    nif:beginIndex "66"^^xsd:nonNegativeInteger ;
+    nif:endIndex "70"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL42#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q8268> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL43#offset_0_3> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "The" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "3"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL43#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q21121474> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL43#offset_21_30> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Hiroshima" ;
+    nif:beginIndex "21"^^xsd:nonNegativeInteger ;
+    nif:endIndex "30"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL43#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q34664> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL43#offset_34_37> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "the" ;
+    nif:beginIndex "34"^^xsd:nonNegativeInteger ;
+    nif:endIndex "37"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL43#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q21121474> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL43#offset_38_41> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "end" ;
+    nif:beginIndex "38"^^xsd:nonNegativeInteger ;
+    nif:endIndex "41"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL43#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q12769393> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL43#offset_45_61> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Second World War" ;
+    nif:beginIndex "45"^^xsd:nonNegativeInteger ;
+    nif:endIndex "61"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL43#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q362> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL43#offset_4_13> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Enola Gay" ;
+    nif:beginIndex "4"^^xsd:nonNegativeInteger ;
+    nif:endIndex "13"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL43#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q204424> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL44#offset_0_3> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "The" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "3"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL44#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q21121474> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL44#offset_14_29> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "terrorist group" ;
+    nif:beginIndex "14"^^xsd:nonNegativeInteger ;
+    nif:endIndex "29"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL44#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q17127659> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL44#offset_37_43> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Baader" ;
+    nif:beginIndex "37"^^xsd:nonNegativeInteger ;
+    nif:endIndex "43"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL44#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q76870> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL44#offset_48_55> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Meinhof" ;
+    nif:beginIndex "48"^^xsd:nonNegativeInteger ;
+    nif:endIndex "55"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL44#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q76543> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL44#offset_4_7> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "RAF" ;
+    nif:beginIndex "4"^^xsd:nonNegativeInteger ;
+    nif:endIndex "7"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL44#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q102734> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL44#offset_56_60> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "that" ;
+    nif:beginIndex "56"^^xsd:nonNegativeInteger ;
+    nif:endIndex "60"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL44#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q15614918> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL44#offset_68_76> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Schleyer" ;
+    nif:beginIndex "68"^^xsd:nonNegativeInteger ;
+    nif:endIndex "76"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL44#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q58758> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL45#offset_0_7> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Onassis" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "7"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL45#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q165421> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL45#offset_16_23> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Kennedy" ;
+    nif:beginIndex "16"^^xsd:nonNegativeInteger ;
+    nif:endIndex "23"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL45#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q9696> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL45#offset_27_37> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "October 20" ;
+    nif:beginIndex "27"^^xsd:nonNegativeInteger ;
+    nif:endIndex "37"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL45#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q2959> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL45#offset_39_43> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "1968" ;
+    nif:beginIndex "39"^^xsd:nonNegativeInteger ;
+    nif:endIndex "43"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL45#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q2644> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL46#offset_0_9> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Armstrong" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "9"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL46#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q1615> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL46#offset_14_17> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "the" ;
+    nif:beginIndex "14"^^xsd:nonNegativeInteger ;
+    nif:endIndex "17"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL46#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q21121474> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL46#offset_18_23> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "first" ;
+    nif:beginIndex "18"^^xsd:nonNegativeInteger ;
+    nif:endIndex "23"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL46#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q19269277> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL46#offset_24_27> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "man" ;
+    nif:beginIndex "24"^^xsd:nonNegativeInteger ;
+    nif:endIndex "27"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL46#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q8441> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL46#offset_31_34> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "the" ;
+    nif:beginIndex "31"^^xsd:nonNegativeInteger ;
+    nif:endIndex "34"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL46#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q21121474> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL46#offset_35_39> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Moon" ;
+    nif:beginIndex "35"^^xsd:nonNegativeInteger ;
+    nif:endIndex "39"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL46#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q405> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL47#offset_0_5> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Erich" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "5"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL47#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q2607> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL47#offset_18_29> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Neunkirchen" ;
+    nif:beginIndex "18"^^xsd:nonNegativeInteger ;
+    nif:endIndex "29"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL47#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q6880> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL48#offset_0_9> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Macedonia" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "9"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL48#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q81734> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL48#offset_15_23> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "province" ;
+    nif:beginIndex "15"^^xsd:nonNegativeInteger ;
+    nif:endIndex "23"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL48#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q34876> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL48#offset_27_33> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Greece" ;
+    nif:beginIndex "27"^^xsd:nonNegativeInteger ;
+    nif:endIndex "33"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL48#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q41> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL49#offset_0_5> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Obama" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "5"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL49#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q76> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL49#offset_15_21> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Merkel" ;
+    nif:beginIndex "15"^^xsd:nonNegativeInteger ;
+    nif:endIndex "21"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL49#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q567> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL49#offset_27_30> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "her" ;
+    nif:beginIndex "27"^^xsd:nonNegativeInteger ;
+    nif:endIndex "30"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL49#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q1270787> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL49#offset_42_45> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "JFK" ;
+    nif:beginIndex "42"^^xsd:nonNegativeInteger ;
+    nif:endIndex "45"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL49#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q8685> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL50#offset_0_7> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Kennedy" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "7"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL50#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q938005> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL50#offset_111_114> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "the" ;
+    nif:beginIndex "111"^^xsd:nonNegativeInteger ;
+    nif:endIndex "114"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL50#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q21121474> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL50#offset_115_119> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "name" ;
+    nif:beginIndex "115"^^xsd:nonNegativeInteger ;
+    nif:endIndex "119"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL50#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q82799> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL50#offset_20_26> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "active" ;
+    nif:beginIndex "20"^^xsd:nonNegativeInteger ;
+    nif:endIndex "26"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL50#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q29415466> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL50#offset_27_37> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "politician" ;
+    nif:beginIndex "27"^^xsd:nonNegativeInteger ;
+    nif:endIndex "37"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL50#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q82955> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL50#offset_43_45> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "he" ;
+    nif:beginIndex "43"^^xsd:nonNegativeInteger ;
+    nif:endIndex "45"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL50#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q1196074> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL50#offset_68_76> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "writings" ;
+    nif:beginIndex "68"^^xsd:nonNegativeInteger ;
+    nif:endIndex "76"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL50#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q37260> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL50#offset_86_91> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "which" ;
+    nif:beginIndex "86"^^xsd:nonNegativeInteger ;
+    nif:endIndex "91"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL50#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q12892337> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL50#offset_92_94> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "he" ;
+    nif:beginIndex "92"^^xsd:nonNegativeInteger ;
+    nif:endIndex "94"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL50#char=0,> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/entity/Q1196074> .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL33#char=0,> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "39"^^xsd:nonNegativeInteger ;
+    nif:isString "Atletico has beaten its archrival Real." .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL36#char=0,> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "28"^^xsd:nonNegativeInteger ;
+    nif:isString "Haug congratulated Red Bull." .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL39#char=0,> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "22"^^xsd:nonNegativeInteger ;
+    nif:isString "Yabo plays for Aachen." .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL40#char=0,> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "28"^^xsd:nonNegativeInteger ;
+    nif:isString "Hertha won against Dortmund." .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL47#char=0,> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "30"^^xsd:nonNegativeInteger ;
+    nif:isString "Erich was born in Neunkirchen." .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL03#char=0,> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "59"^^xsd:nonNegativeInteger ;
+    nif:isString "Tiger was lost in the woods when he got divorced from Elin." .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL04#char=0,> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "23"^^xsd:nonNegativeInteger ;
+    nif:isString "Tiger lost the US Open." .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL05#char=0,> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "44"^^xsd:nonNegativeInteger ;
+    nif:isString "Madonna played Eva and was seen with Carlos." .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL25#char=0,> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "70"^^xsd:nonNegativeInteger ;
+    nif:isString "Karl and Theo made their extreme fortunes selling low-price groceries." .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL34#char=0,> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "41"^^xsd:nonNegativeInteger ;
+    nif:isString "Müller scored a hattrick against England." .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL48#char=0,> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "34"^^xsd:nonNegativeInteger ;
+    nif:isString "Macedonia is a province of Greece." .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL02#char=0,> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "49"^^xsd:nonNegativeInteger ;
+    nif:isString "David and Victoria added spice to their marriage." .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL28#char=0,> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "42"^^xsd:nonNegativeInteger ;
+    nif:isString "Pixar produced Cars, and John directed it." .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL29#char=0,> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "43"^^xsd:nonNegativeInteger ;
+    nif:isString "Mars, Galaxy, and Bounty are all chocolate." .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL30#char=0,> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "61"^^xsd:nonNegativeInteger ;
+    nif:isString "Bosch and Sharp are both home appliances producing companies." .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL35#char=0,> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "48"^^xsd:nonNegativeInteger ;
+    nif:isString "Thomas and Mario are strikers playing in Munich." .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL38#char=0,> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "41"^^xsd:nonNegativeInteger ;
+    nif:isString "Landgraf and Meijer played at the Tivoli." .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL45#char=0,> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "44"^^xsd:nonNegativeInteger ;
+    nif:isString "Onassis married Kennedy on October 20, 1968." .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL49#char=0,> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "46"^^xsd:nonNegativeInteger ;
+    nif:isString "Obama welcomed Merkel upon her arrival at JFK." .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL08#char=0,> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "41"^^xsd:nonNegativeInteger ;
+    nif:isString "Heidi and her husband Seal live in Vegas." .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL20#char=0,> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "74"^^xsd:nonNegativeInteger ;
+    nif:isString "Eric preferred to play Blues instead of Rock, so he joined Mayall 's band." .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL31#char=0,> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "31"^^xsd:nonNegativeInteger ;
+    nif:isString "City won 3:2 against the Spurs." .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL06#char=0,> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "59"^^xsd:nonNegativeInteger ;
+    nif:isString "In this musical, Madonna played the role of the First Lady." .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL09#char=0,> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "74"^^xsd:nonNegativeInteger ;
+    nif:isString "Paris and Kim are both wealthy It Girls who had sex tapes on the Internet." .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL12#char=0,> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "52"^^xsd:nonNegativeInteger ;
+    nif:isString "Desire contains a duet with Harris in the song Joey." .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL37#char=0,> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "62"^^xsd:nonNegativeInteger ;
+    nif:isString "Völler will never forget the match against Oranje in San Siro." .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL42#char=0,> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "76"^^xsd:nonNegativeInteger ;
+    nif:isString "The Sun and The Times reported that Greece will have to leave the Euro soon." .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL43#char=0,> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "63"^^xsd:nonNegativeInteger ;
+    nif:isString "The Enola Gay bombed Hiroshima at the end of Second World War.?" .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL46#char=0,> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "40"^^xsd:nonNegativeInteger ;
+    nif:isString "Armstrong was the first man on the Moon." .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL10#char=0,> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "84"^^xsd:nonNegativeInteger ;
+    nif:isString "Justin, Stefani, and Kate are among the most popular people on both MTV and Twitter." .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL11#char=0,> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "80"^^xsd:nonNegativeInteger ;
+    nif:isString "Dylan performed Hurricane about the black fighter Carter, from his album Desire." .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL17#char=0,> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "110"^^xsd:nonNegativeInteger ;
+    nif:isString "The group formed by Homme, Grohl, and Jones was supposed to be named Caligula, but the name was already taken." .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL32#char=0,> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "56"^^xsd:nonNegativeInteger ;
+    nif:isString "The Gunners now play their home matches at the Emirates." .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL41#char=0,> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "89"^^xsd:nonNegativeInteger ;
+    nif:isString "Nixon resigned after Watergate despite his success in the Ping-Pong Diplomacy with China." .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL44#char=0,> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "78"^^xsd:nonNegativeInteger ;
+    nif:isString "The RAF was a terrorist group led by Baader and Meinhof that killed Schleyer.?" .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL01#char=0,> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "80"^^xsd:nonNegativeInteger ;
+    nif:isString "David and Victoria named their children Brooklyn, Romeo, Cruz, and Harper Seven." .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL18#char=0,> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "82"^^xsd:nonNegativeInteger ;
+    nif:isString "Jobs and Baez dated in the late 1970s, and she performed at his Stanford memorial." .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL22#char=0,> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "106"^^xsd:nonNegativeInteger ;
+    nif:isString "In 1980, Steve dropped out of Stanford to join Microsoft, the company behind the Windows operating system." .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL26#char=0,> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "97"^^xsd:nonNegativeInteger ;
+    nif:isString "While Apple is an electronics company, Mango is a clothing one and Orange is a communication one." .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL13#char=0,> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "97"^^xsd:nonNegativeInteger ;
+    nif:isString "Three of the greatest guitarists started their career in a single band : Clapton, Beck, and Page." .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL14#char=0,> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "132"^^xsd:nonNegativeInteger ;
+    nif:isString "Allen founded the EMP in Seattle, which featured exhibitions about Hendrix and Dylan, but also about various science fiction movies." .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL19#char=0,> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "129"^^xsd:nonNegativeInteger ;
+    nif:isString "The Isle of Wight festival in 1970 was the biggest at its time, surpassing Woodstock with acts like Davis, Chicago, and Mitchell." .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL21#char=0,> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "118"^^xsd:nonNegativeInteger ;
+    nif:isString "After the death of Steve, the former CEO of Apple, his commencement speech at Stanford was watched thousands of times." .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL50#char=0,> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "138"^^xsd:nonNegativeInteger ;
+    nif:isString "Kennedy was also an active politician, yet he is most known for his writings, some of which he published under the name of Mark Littleton." .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL07#char=0,> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "87"^^xsd:nonNegativeInteger ;
+    nif:isString "Angelina, her father Jon, and her partner Brad never played together in the same movie." .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL27#char=0,> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "163"^^xsd:nonNegativeInteger ;
+    nif:isString "Sam, the co-founder of Equity International, was given the nickname of \\\"the grave dancer\\\" because of his ability to buy businesses that others thought were dead." .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL15#char=0,> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "162"^^xsd:nonNegativeInteger ;
+    nif:isString "Despite featuring some of the most promininent musicians of their decade --- like Sinatra, Dylan, Joel, and Santana --- Columbia was aquired by Sony in the 1980s." .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL16#char=0,> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "150"^^xsd:nonNegativeInteger ;
+    nif:isString "After unsuccessful years, aging country star Cash made a grandiose comeback with his American Recordings, recorded at his home with the help of Rubin." .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL24#char=0,> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "145"^^xsd:nonNegativeInteger ;
+    nif:isString "Steve, Bill, Sergey, and Larry have drawn a great deal of admiration these days for their pioneering successes that changed the world we live in." .
+
+<http://www.mpi-inf.mpg.de/yago-naga/aida/download/KORE50.tar.gz/AIDA.tsv/CEL23#char=0,> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "185"^^xsd:nonNegativeInteger ;
+    nif:isString "Cairo was the code name for a project at Microsoft from 1991 to 1996. Its charter was to build technologies for a next generation operating system that would fulfill the vision of Bill." .
+

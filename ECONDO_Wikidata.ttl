@@ -1,0 +1,2579 @@
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ns1: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://kit.edu/ECONDO/Wikidata> a nif:ContextCollection ;
+    nif:hasContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/01>,
+        <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/02>,
+        <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/03>,
+        <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/04>,
+        <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/05>,
+        <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/06>,
+        <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/07>,
+        <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/08>,
+        <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/09>,
+        <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/10>,
+        <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/11>,
+        <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/12>,
+        <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/13>,
+        <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/14>,
+        <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/15>,
+        <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/16>,
+        <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/17>,
+        <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/18>,
+        <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/19>,
+        <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/20>,
+        <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/21>,
+        <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/22>,
+        <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/23>,
+        <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/24>,
+        <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/25>,
+        <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/26>,
+        <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/27>,
+        <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/28>,
+        <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/29>,
+        <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/30> ;
+    ns1:conformsTo <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/01#offset_1143_1164> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "social media networks" ;
+    nif:beginIndex "1143"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1164"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/01> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q202833> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/01#offset_144_157> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "false stories" ;
+    nif:beginIndex "144"^^xsd:nonNegativeInteger ;
+    nif:endIndex "157"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/01> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/wiki/Q28549308> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/01#offset_17_26> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "fake news" ;
+    nif:beginIndex "17"^^xsd:nonNegativeInteger ;
+    nif:endIndex "26"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/01> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/wiki/Q28549308> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/01#offset_200_212> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "social media" ;
+    nif:beginIndex "200"^^xsd:nonNegativeInteger ;
+    nif:endIndex "212"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/01> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q202833> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/01#offset_242_251> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "fake news" ;
+    nif:beginIndex "242"^^xsd:nonNegativeInteger ;
+    nif:endIndex "251"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/01> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/wiki/Q28549308> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/01#offset_305_313> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "election" ;
+    nif:beginIndex "305"^^xsd:nonNegativeInteger ;
+    nif:endIndex "313"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/01> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q699872> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/01#offset_34_47> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "2016 election" ;
+    nif:beginIndex "34"^^xsd:nonNegativeInteger ;
+    nif:endIndex "47"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/01> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q699872> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/01#offset_431_443> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "social media" ;
+    nif:beginIndex "431"^^xsd:nonNegativeInteger ;
+    nif:endIndex "443"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/01> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q202833> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/01#offset_540_552> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "social media" ;
+    nif:beginIndex "540"^^xsd:nonNegativeInteger ;
+    nif:endIndex "552"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/01> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q202833> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/01#offset_600_618> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "false news stories" ;
+    nif:beginIndex "600"^^xsd:nonNegativeInteger ;
+    nif:endIndex "618"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/01> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/wiki/Q28549308> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/01#offset_64_93> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "2016 US presidential election" ;
+    nif:beginIndex "64"^^xsd:nonNegativeInteger ;
+    nif:endIndex "93"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/01> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q699872> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/01#offset_664_672> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "election" ;
+    nif:beginIndex "664"^^xsd:nonNegativeInteger ;
+    nif:endIndex "672"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/01> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q699872> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/01#offset_689_694> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Trump" ;
+    nif:beginIndex "689"^^xsd:nonNegativeInteger ;
+    nif:endIndex "694"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/01> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q22686> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/01#offset_738_746> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Facebook" ;
+    nif:beginIndex "738"^^xsd:nonNegativeInteger ;
+    nif:endIndex "746"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/01> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q355> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/01#offset_769_776> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Clinton" ;
+    nif:beginIndex "769"^^xsd:nonNegativeInteger ;
+    nif:endIndex "776"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/01> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q6294> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/01#offset_879_896> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "fake news stories" ;
+    nif:beginIndex "879"^^xsd:nonNegativeInteger ;
+    nif:endIndex "896"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/01> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/wiki/Q28549308> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/02#offset_15_22> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "queuing" ;
+    nif:beginIndex "15"^^xsd:nonNegativeInteger ;
+    nif:endIndex "22"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/02> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q847526> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/02#offset_206_211> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "queue" ;
+    nif:beginIndex "206"^^xsd:nonNegativeInteger ;
+    nif:endIndex "211"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/02> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q847526> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/02#offset_280_285> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "bribe" ;
+    nif:beginIndex "280"^^xsd:nonNegativeInteger ;
+    nif:endIndex "285"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/02> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q187436> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/02#offset_322_338> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Nash equilibrium" ;
+    nif:beginIndex "322"^^xsd:nonNegativeInteger ;
+    nif:endIndex "338"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/02> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q23389> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/02#offset_32_39> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "bribery" ;
+    nif:beginIndex "32"^^xsd:nonNegativeInteger ;
+    nif:endIndex "39"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/02> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q187436> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/02#offset_463_470> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "bribery" ;
+    nif:beginIndex "463"^^xsd:nonNegativeInteger ;
+    nif:endIndex "470"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/02> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q187436> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/02#offset_624_629> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "queue" ;
+    nif:beginIndex "624"^^xsd:nonNegativeInteger ;
+    nif:endIndex "629"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/02> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q847526> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/03#offset_1133_1149> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "circular economy" ;
+    nif:beginIndex "1133"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1149"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/03> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q497743> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/03#offset_1185_1201> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "circular economy" ;
+    nif:beginIndex "1185"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1201"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/03> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q497743> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/03#offset_1319_1343> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "circular economy concept" ;
+    nif:beginIndex "1319"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1343"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/03> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q497743> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/03#offset_1383_1399> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "circular economy" ;
+    nif:beginIndex "1383"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1399"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/03> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q497743> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/03#offset_1400_1411> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "definitions" ;
+    nif:beginIndex "1400"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1411"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/03> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q101072> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/03#offset_20_36> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "circular economy" ;
+    nif:beginIndex "20"^^xsd:nonNegativeInteger ;
+    nif:endIndex "36"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/03> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q497743> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/03#offset_387_411> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "circular economy concept" ;
+    nif:beginIndex "387"^^xsd:nonNegativeInteger ;
+    nif:endIndex "411"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/03> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q497743> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/03#offset_452_468> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "circular economy" ;
+    nif:beginIndex "452"^^xsd:nonNegativeInteger ;
+    nif:endIndex "468"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/03> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q497743> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/03#offset_469_480> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "definitions" ;
+    nif:beginIndex "469"^^xsd:nonNegativeInteger ;
+    nif:endIndex "480"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/03> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q101072> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/03#offset_547_563> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "circular economy" ;
+    nif:beginIndex "547"^^xsd:nonNegativeInteger ;
+    nif:endIndex "563"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/03> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q497743> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/03#offset_57_68> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "definitions" ;
+    nif:beginIndex "57"^^xsd:nonNegativeInteger ;
+    nif:endIndex "68"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/03> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q101072> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/03#offset_696_698> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "CE" ;
+    nif:beginIndex "696"^^xsd:nonNegativeInteger ;
+    nif:endIndex "698"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/03> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q497743> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/03#offset_755_766> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "definitions" ;
+    nif:beginIndex "755"^^xsd:nonNegativeInteger ;
+    nif:endIndex "766"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/03> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q101072> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/03#offset_75_99> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "circular economy concept" ;
+    nif:beginIndex "75"^^xsd:nonNegativeInteger ;
+    nif:endIndex "99"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/03> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q497743> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/03#offset_801_825> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "circular economy concept" ;
+    nif:beginIndex "801"^^xsd:nonNegativeInteger ;
+    nif:endIndex "825"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/03> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q497743> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/03#offset_874_890> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "circular economy" ;
+    nif:beginIndex "874"^^xsd:nonNegativeInteger ;
+    nif:endIndex "890"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/03> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q497743> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/04#offset_1126_1138> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "peer-to-peer" ;
+    nif:beginIndex "1126"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1138"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/04> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q161410> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/04#offset_137_152> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "sharing economy" ;
+    nif:beginIndex "137"^^xsd:nonNegativeInteger ;
+    nif:endIndex "152"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/04> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q2277143> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/04#offset_16_31> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "sharing economy" ;
+    nif:beginIndex "16"^^xsd:nonNegativeInteger ;
+    nif:endIndex "31"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/04> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q2277143> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/04#offset_316_331> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "sharing economy" ;
+    nif:beginIndex "316"^^xsd:nonNegativeInteger ;
+    nif:endIndex "331"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/04> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q2277143> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/04#offset_375_381> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Airbnb" ;
+    nif:beginIndex "375"^^xsd:nonNegativeInteger ;
+    nif:endIndex "381"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/04> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q63327> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/04#offset_472_486> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "state of Texas" ;
+    nif:beginIndex "472"^^xsd:nonNegativeInteger ;
+    nif:endIndex "486"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/04> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q1439> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/04#offset_518_523> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Texas" ;
+    nif:beginIndex "518"^^xsd:nonNegativeInteger ;
+    nif:endIndex "523"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/04> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q1439> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/04#offset_524_538> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "hotel industry" ;
+    nif:beginIndex "524"^^xsd:nonNegativeInteger ;
+    nif:endIndex "538"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/04> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q27686> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/04#offset_584_590> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Airbnb" ;
+    nif:beginIndex "584"^^xsd:nonNegativeInteger ;
+    nif:endIndex "590"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/04> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q63327> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/04#offset_58_64> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "airbnb" ;
+    nif:beginIndex "58"^^xsd:nonNegativeInteger ;
+    nif:endIndex "64"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/04> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q63327> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/04#offset_723_729> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "hotels" ;
+    nif:beginIndex "723"^^xsd:nonNegativeInteger ;
+    nif:endIndex "729"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/04> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q27686> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/04#offset_72_86> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "hotel industry" ;
+    nif:beginIndex "72"^^xsd:nonNegativeInteger ;
+    nif:endIndex "86"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/04> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q27686> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/04#offset_89_101> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Peer-to-peer" ;
+    nif:beginIndex "89"^^xsd:nonNegativeInteger ;
+    nif:endIndex "101"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/04> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q161410> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/04#offset_943_958> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "sharing economy" ;
+    nif:beginIndex "943"^^xsd:nonNegativeInteger ;
+    nif:endIndex "958"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/04> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q2277143> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/05#offset_1267_1283> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Circular Economy" ;
+    nif:beginIndex "1267"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1283"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/05> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q497743> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/05#offset_223_239> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Circular Economy" ;
+    nif:beginIndex "223"^^xsd:nonNegativeInteger ;
+    nif:endIndex "239"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/05> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q497743> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/05#offset_417_422> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "China" ;
+    nif:beginIndex "417"^^xsd:nonNegativeInteger ;
+    nif:endIndex "422"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/05> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q148> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/05#offset_4_20> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Circular Economy" ;
+    nif:beginIndex "4"^^xsd:nonNegativeInteger ;
+    nif:endIndex "20"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/05> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q497743> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/05#offset_651_667> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Circular Economy" ;
+    nif:beginIndex "651"^^xsd:nonNegativeInteger ;
+    nif:endIndex "667"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/05> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q497743> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/05#offset_769_785> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Circular Economy" ;
+    nif:beginIndex "769"^^xsd:nonNegativeInteger ;
+    nif:endIndex "785"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/05> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q497743> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/05#offset_866_882> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Circular Economy" ;
+    nif:beginIndex "866"^^xsd:nonNegativeInteger ;
+    nif:endIndex "882"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/05> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q497743> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/06#offset_164_180> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "entrepreneurship" ;
+    nif:beginIndex "164"^^xsd:nonNegativeInteger ;
+    nif:endIndex "180"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/06> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q3908516> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/06#offset_231_241> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "ecosystems" ;
+    nif:beginIndex "231"^^xsd:nonNegativeInteger ;
+    nif:endIndex "241"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/06> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q37813> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/06#offset_31_57> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Entrepreneurial Ecosystems" ;
+    nif:beginIndex "31"^^xsd:nonNegativeInteger ;
+    nif:endIndex "57"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/06> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q5380746> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/06#offset_336_352> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "entrepreneurship" ;
+    nif:beginIndex "336"^^xsd:nonNegativeInteger ;
+    nif:endIndex "352"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/06> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q3908516> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/06#offset_386_396> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "ecosystems" ;
+    nif:beginIndex "386"^^xsd:nonNegativeInteger ;
+    nif:endIndex "396"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/06> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q37813> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/06#offset_61_87> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Entrepreneurial ecosystems" ;
+    nif:beginIndex "61"^^xsd:nonNegativeInteger ;
+    nif:endIndex "87"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/06> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q5380746> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/06#offset_635_643> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Waterloo" ;
+    nif:beginIndex "635"^^xsd:nonNegativeInteger ;
+    nif:endIndex "643"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/06> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q189009> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/06#offset_645_652> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Ontario" ;
+    nif:beginIndex "645"^^xsd:nonNegativeInteger ;
+    nif:endIndex "652"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/06> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q1904> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/06#offset_658_682> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Calgary, Alberta, Canada" ;
+    nif:beginIndex "658"^^xsd:nonNegativeInteger ;
+    nif:endIndex "682"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/06> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q36312> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/06#offset_751_761> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "ecosystems" ;
+    nif:beginIndex "751"^^xsd:nonNegativeInteger ;
+    nif:endIndex "761"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/06> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q37813> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/07#offset_14_30> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "renewable energy" ;
+    nif:beginIndex "14"^^xsd:nonNegativeInteger ;
+    nif:endIndex "30"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/07> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q12705> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/07#offset_184_200> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "renewable energy" ;
+    nif:beginIndex "184"^^xsd:nonNegativeInteger ;
+    nif:endIndex "200"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/07> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q12705> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/07#offset_225_235> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "well-being" ;
+    nif:beginIndex "225"^^xsd:nonNegativeInteger ;
+    nif:endIndex "235"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/07> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q7981051> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/07#offset_239_247> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Malaysia" ;
+    nif:beginIndex "239"^^xsd:nonNegativeInteger ;
+    nif:endIndex "247"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/07> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q833> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/07#offset_352_368> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "renewable energy" ;
+    nif:beginIndex "352"^^xsd:nonNegativeInteger ;
+    nif:endIndex "368"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/07> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q12705> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/07#offset_412_422> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "well-being" ;
+    nif:beginIndex "412"^^xsd:nonNegativeInteger ;
+    nif:endIndex "422"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/07> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q7981051> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/07#offset_43_53> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "well-being" ;
+    nif:beginIndex "43"^^xsd:nonNegativeInteger ;
+    nif:endIndex "53"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/07> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q7981051> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/07#offset_466_482> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "renewable energy" ;
+    nif:beginIndex "466"^^xsd:nonNegativeInteger ;
+    nif:endIndex "482"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/07> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q12705> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/07#offset_496_506> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "well-being" ;
+    nif:beginIndex "496"^^xsd:nonNegativeInteger ;
+    nif:endIndex "506"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/07> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q7981051> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/07#offset_57_65> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Malaysia" ;
+    nif:beginIndex "57"^^xsd:nonNegativeInteger ;
+    nif:endIndex "65"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/07> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q833> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/07#offset_619_635> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "renewable energy" ;
+    nif:beginIndex "619"^^xsd:nonNegativeInteger ;
+    nif:endIndex "635"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/07> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q12705> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/07#offset_649_659> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "well-being" ;
+    nif:beginIndex "649"^^xsd:nonNegativeInteger ;
+    nif:endIndex "659"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/07> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q7981051> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/07#offset_663_671> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Malaysia" ;
+    nif:beginIndex "663"^^xsd:nonNegativeInteger ;
+    nif:endIndex "671"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/07> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q833> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/07#offset_712_728> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "renewable energy" ;
+    nif:beginIndex "712"^^xsd:nonNegativeInteger ;
+    nif:endIndex "728"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/07> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q12705> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/07#offset_778_788> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "well-being" ;
+    nif:beginIndex "778"^^xsd:nonNegativeInteger ;
+    nif:endIndex "788"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/07> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q7981051> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/07#offset_936_952> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "renewable energy" ;
+    nif:beginIndex "936"^^xsd:nonNegativeInteger ;
+    nif:endIndex "952"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/07> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q12705> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/08#offset_0_32> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Perceived Organizational Support" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "32"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/08> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q7166983> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/08#offset_295_327> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "perceived organizational support" ;
+    nif:beginIndex "295"^^xsd:nonNegativeInteger ;
+    nif:endIndex "327"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/08> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q7166983> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/08#offset_332_335> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "POS" ;
+    nif:beginIndex "332"^^xsd:nonNegativeInteger ;
+    nif:endIndex "335"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/08> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q7166983> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/09#offset_0_16> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Circular Economy" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "16"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/09> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q497743> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/09#offset_1057_1073> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "circular economy" ;
+    nif:beginIndex "1057"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1073"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/09> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q497743> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/09#offset_1075_1077> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "CE" ;
+    nif:beginIndex "1075"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1077"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/09> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q497743> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/09#offset_121_123> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "EU" ;
+    nif:beginIndex "121"^^xsd:nonNegativeInteger ;
+    nif:endIndex "123"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/09> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q458> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/09#offset_250_252> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "CE" ;
+    nif:beginIndex "250"^^xsd:nonNegativeInteger ;
+    nif:endIndex "252"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/09> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q497743> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/09#offset_52_73> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Circular economy (CE)" ;
+    nif:beginIndex "52"^^xsd:nonNegativeInteger ;
+    nif:endIndex "73"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/09> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q497743> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/09#offset_544_548> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "WCED" ;
+    nif:beginIndex "544"^^xsd:nonNegativeInteger ;
+    nif:endIndex "548"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/09> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q7987679> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/09#offset_842_844> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "CE" ;
+    nif:beginIndex "842"^^xsd:nonNegativeInteger ;
+    nif:endIndex "844"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/09> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q497743> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/10#offset_123_145> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "stated preference (SP)" ;
+    nif:beginIndex "123"^^xsd:nonNegativeInteger ;
+    nif:endIndex "145"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/10> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q1323737> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/10#offset_1378_1380> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "SP" ;
+    nif:beginIndex "1378"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1380"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/10> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q1323737> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/10#offset_26_43> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "stated preference" ;
+    nif:beginIndex "26"^^xsd:nonNegativeInteger ;
+    nif:endIndex "43"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/10> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q1323737> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/10#offset_290_292> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "SP" ;
+    nif:beginIndex "290"^^xsd:nonNegativeInteger ;
+    nif:endIndex "292"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/10> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q1323737> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/10#offset_965_1019> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "National Oceanic and Atmospheric Administration (NOAA)" ;
+    nif:beginIndex "965"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1019"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/10> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q214700> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/11#offset_10_23> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "systemic risk" ;
+    nif:beginIndex "10"^^xsd:nonNegativeInteger ;
+    nif:endIndex "23"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/11> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q1975416> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/11#offset_186_199> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "systemic risk" ;
+    nif:beginIndex "186"^^xsd:nonNegativeInteger ;
+    nif:endIndex "199"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/11> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q1975416> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/11#offset_258_271> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "systemic risk" ;
+    nif:beginIndex "258"^^xsd:nonNegativeInteger ;
+    nif:endIndex "271"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/11> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q1975416> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/11#offset_40_54> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "economic model" ;
+    nif:beginIndex "40"^^xsd:nonNegativeInteger ;
+    nif:endIndex "54"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/11> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q2180497> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/11#offset_58_71> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "systemic risk" ;
+    nif:beginIndex "58"^^xsd:nonNegativeInteger ;
+    nif:endIndex "71"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/11> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q1975416> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/11#offset_659_672> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "systemic risk" ;
+    nif:beginIndex "659"^^xsd:nonNegativeInteger ;
+    nif:endIndex "672"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/11> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q1975416> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/11#offset_684_713> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "financial crisis of 2007-2009" ;
+    nif:beginIndex "684"^^xsd:nonNegativeInteger ;
+    nif:endIndex "713"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/11> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q896666> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/12#offset_182_193> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "human error" ;
+    nif:beginIndex "182"^^xsd:nonNegativeInteger ;
+    nif:endIndex "193"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/12> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q5937752> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/12#offset_452_460> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "aviation" ;
+    nif:beginIndex "452"^^xsd:nonNegativeInteger ;
+    nif:endIndex "460"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/12> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/wiki/Q765633> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/12#offset_46_57> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "human error" ;
+    nif:beginIndex "46"^^xsd:nonNegativeInteger ;
+    nif:endIndex "57"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/12> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q5937752> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/12#offset_507_517> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "crew error" ;
+    nif:beginIndex "507"^^xsd:nonNegativeInteger ;
+    nif:endIndex "517"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/12> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q5937752> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/12#offset_670_681> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "human error" ;
+    nif:beginIndex "670"^^xsd:nonNegativeInteger ;
+    nif:endIndex "681"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/12> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q5937752> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/12#offset_805_816> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "human error" ;
+    nif:beginIndex "805"^^xsd:nonNegativeInteger ;
+    nif:endIndex "816"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/12> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q5937752> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/12#offset_829_837> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "medicine" ;
+    nif:beginIndex "829"^^xsd:nonNegativeInteger ;
+    nif:endIndex "837"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/12> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q11190> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/12#offset_839_847> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "aviation" ;
+    nif:beginIndex "839"^^xsd:nonNegativeInteger ;
+    nif:endIndex "847"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/12> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/wiki/Q765633> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/12#offset_849_873> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "nuclear power generation" ;
+    nif:beginIndex "849"^^xsd:nonNegativeInteger ;
+    nif:endIndex "873"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/12> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q12739> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/12#offset_85_93> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "medicine" ;
+    nif:beginIndex "85"^^xsd:nonNegativeInteger ;
+    nif:endIndex "93"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/12> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q11190> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/13#offset_0_19> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Customer engagement" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "19"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/13> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q5196451> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/13#offset_133_157> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "customer engagement (CE)" ;
+    nif:beginIndex "133"^^xsd:nonNegativeInteger ;
+    nif:endIndex "157"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/13> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q5196451> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/13#offset_498_517> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "customer engagement" ;
+    nif:beginIndex "498"^^xsd:nonNegativeInteger ;
+    nif:endIndex "517"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/13> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q5196451> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/13#offset_576_578> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "CE" ;
+    nif:beginIndex "576"^^xsd:nonNegativeInteger ;
+    nif:endIndex "578"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/13> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q5196451> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/14#offset_0_9> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Mortality" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "9"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/14> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/wiki/Q1239812> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/14#offset_1102_1111> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "mortality" ;
+    nif:beginIndex "1102"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1111"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/14> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/wiki/Q1239812> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/14#offset_116_125> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "mortality" ;
+    nif:beginIndex "116"^^xsd:nonNegativeInteger ;
+    nif:endIndex "125"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/14> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/wiki/Q1239812> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/14#offset_130_139> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "morbidity" ;
+    nif:beginIndex "130"^^xsd:nonNegativeInteger ;
+    nif:endIndex "139"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/14> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q12136> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/14#offset_146_174> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "white non-Hispanic Americans" ;
+    nif:beginIndex "146"^^xsd:nonNegativeInteger ;
+    nif:endIndex "174"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/14> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q7048763> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/14#offset_14_23> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "morbidity" ;
+    nif:beginIndex "14"^^xsd:nonNegativeInteger ;
+    nif:endIndex "23"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/14> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q12136> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/14#offset_1667_1676> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "morbidity" ;
+    nif:beginIndex "1667"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1676"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/14> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q12136> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/14#offset_325_334> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "mortality" ;
+    nif:beginIndex "325"^^xsd:nonNegativeInteger ;
+    nif:endIndex "334"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/14> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/wiki/Q1239812> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/14#offset_556_576> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "white non- Hispanics" ;
+    nif:beginIndex "556"^^xsd:nonNegativeInteger ;
+    nif:endIndex "576"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/14> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q7048763> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/14#offset_698_713> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "mortality rates" ;
+    nif:beginIndex "698"^^xsd:nonNegativeInteger ;
+    nif:endIndex "713"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/14> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q58702> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/14#offset_805_820> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Mortality rates" ;
+    nif:beginIndex "805"^^xsd:nonNegativeInteger ;
+    nif:endIndex "820"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/14> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q58702> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/14#offset_933_946> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "United States" ;
+    nif:beginIndex "933"^^xsd:nonNegativeInteger ;
+    nif:endIndex "946"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/14> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q30> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/15#offset_1534_1548> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "gender pay gap" ;
+    nif:beginIndex "1534"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1548"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/15> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q5531013> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/15#offset_204_219> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "gender wage gap" ;
+    nif:beginIndex "204"^^xsd:nonNegativeInteger ;
+    nif:endIndex "219"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/15> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q5531013> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/15#offset_289_302> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "human capital" ;
+    nif:beginIndex "289"^^xsd:nonNegativeInteger ;
+    nif:endIndex "302"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/15> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q165687> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/15#offset_352_367> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "gender wage gap" ;
+    nif:beginIndex "352"^^xsd:nonNegativeInteger ;
+    nif:endIndex "367"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/15> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q5531013> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/15#offset_462_476> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "gender pay gap" ;
+    nif:beginIndex "462"^^xsd:nonNegativeInteger ;
+    nif:endIndex "476"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/15> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q5531013> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/15#offset_4_19> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "gender wage gap" ;
+    nif:beginIndex "4"^^xsd:nonNegativeInteger ;
+    nif:endIndex "19"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/15> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q5531013> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/15#offset_60_97> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Panel Study of Income Dynamics (PSID)" ;
+    nif:beginIndex "60"^^xsd:nonNegativeInteger ;
+    nif:endIndex "97"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/15> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q7130814> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/15#offset_804_826> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "human- capital factors" ;
+    nif:beginIndex "804"^^xsd:nonNegativeInteger ;
+    nif:endIndex "826"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/15> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q165687> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/16#offset_104_114> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "robustness" ;
+    nif:beginIndex "104"^^xsd:nonNegativeInteger ;
+    nif:endIndex "114"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/16> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/wiki/Q403605> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/16#offset_27_38> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Coefficient" ;
+    nif:beginIndex "27"^^xsd:nonNegativeInteger ;
+    nif:endIndex "38"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/16> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <https://www.wikidata.org/wiki/Q50700> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/17#offset_208_239> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Data Envelopment Analysis (DEA)" ;
+    nif:beginIndex "208"^^xsd:nonNegativeInteger ;
+    nif:endIndex "239"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/17> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q647974> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/17#offset_287_290> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "DEA" ;
+    nif:beginIndex "287"^^xsd:nonNegativeInteger ;
+    nif:endIndex "290"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/17> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q647974> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/17#offset_305_342> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "measuring efficiency and productivity" ;
+    nif:beginIndex "305"^^xsd:nonNegativeInteger ;
+    nif:endIndex "342"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/17> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q1771949> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/17#offset_369_372> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "DEA" ;
+    nif:beginIndex "369"^^xsd:nonNegativeInteger ;
+    nif:endIndex "372"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/17> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q647974> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/17#offset_426_449> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "performance measurement" ;
+    nif:beginIndex "426"^^xsd:nonNegativeInteger ;
+    nif:endIndex "449"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/17> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q1771949> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/17#offset_604_607> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "DEA" ;
+    nif:beginIndex "604"^^xsd:nonNegativeInteger ;
+    nif:endIndex "607"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/17> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q647974> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/17#offset_71_74> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "DEA" ;
+    nif:beginIndex "71"^^xsd:nonNegativeInteger ;
+    nif:endIndex "74"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/17> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q647974> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/18#offset_0_21> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Racial discrimination" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "21"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/18> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q8461> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/18#offset_101_107> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Airbnb" ;
+    nif:beginIndex "101"^^xsd:nonNegativeInteger ;
+    nif:endIndex "107"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/18> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q63327> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/18#offset_166_182> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "African American" ;
+    nif:beginIndex "166"^^xsd:nonNegativeInteger ;
+    nif:endIndex "182"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/18> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q49085> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/18#offset_292_306> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Discrimination" ;
+    nif:beginIndex "292"^^xsd:nonNegativeInteger ;
+    nif:endIndex "306"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/18> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q169207> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/18#offset_29_44> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "sharing economy" ;
+    nif:beginIndex "29"^^xsd:nonNegativeInteger ;
+    nif:endIndex "44"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/18> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q2277143> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/18#offset_494_510> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "African American" ;
+    nif:beginIndex "494"^^xsd:nonNegativeInteger ;
+    nif:endIndex "510"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/18> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q49085> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/18#offset_627_641> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "discrimination" ;
+    nif:beginIndex "627"^^xsd:nonNegativeInteger ;
+    nif:endIndex "641"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/18> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q169207> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/18#offset_686_694> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Airbnb's" ;
+    nif:beginIndex "686"^^xsd:nonNegativeInteger ;
+    nif:endIndex "694"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/18> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q63327> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/19#offset_0_14> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Social Capital" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "14"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/19> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q214693> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/19#offset_101_117> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Financial Crisis" ;
+    nif:beginIndex "101"^^xsd:nonNegativeInteger ;
+    nif:endIndex "117"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/19> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q896666> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/19#offset_131_157> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "2008–2009 financial crisis" ;
+    nif:beginIndex "131"^^xsd:nonNegativeInteger ;
+    nif:endIndex "157"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/19> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q896666> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/19#offset_175_189> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "social capital" ;
+    nif:beginIndex "175"^^xsd:nonNegativeInteger ;
+    nif:endIndex "189"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/19> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q214693> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/19#offset_206_243> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "corporate social responsibility (CSR)" ;
+    nif:beginIndex "206"^^xsd:nonNegativeInteger ;
+    nif:endIndex "243"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/19> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q218600> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/19#offset_342_356> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "social capital" ;
+    nif:beginIndex "342"^^xsd:nonNegativeInteger ;
+    nif:endIndex "356"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/19> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q214693> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/19#offset_358_366> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "High-CSR" ;
+    nif:beginIndex "358"^^xsd:nonNegativeInteger ;
+    nif:endIndex "366"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/19> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q218600> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/19#offset_58_89> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Corporate Social Responsibility" ;
+    nif:beginIndex "58"^^xsd:nonNegativeInteger ;
+    nif:endIndex "89"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/19> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q218600> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/19#offset_620_634> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "social capital" ;
+    nif:beginIndex "620"^^xsd:nonNegativeInteger ;
+    nif:endIndex "634"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/19> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q214693> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/20#offset_0_8> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Chitosan" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "8"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/20> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q408510> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/20#offset_14_31> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "bioactive polymer" ;
+    nif:beginIndex "14"^^xsd:nonNegativeInteger ;
+    nif:endIndex "31"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/20> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q422649> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/20#offset_191_199> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "chitosan" ;
+    nif:beginIndex "191"^^xsd:nonNegativeInteger ;
+    nif:endIndex "199"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/20> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q408510> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/20#offset_242_259> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "bioactive polymer" ;
+    nif:beginIndex "242"^^xsd:nonNegativeInteger ;
+    nif:endIndex "259"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/20> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q422649> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/20#offset_458_466> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "chitosan" ;
+    nif:beginIndex "458"^^xsd:nonNegativeInteger ;
+    nif:endIndex "466"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/20> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q408510> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/20#offset_75_81> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Chitin" ;
+    nif:beginIndex "75"^^xsd:nonNegativeInteger ;
+    nif:endIndex "81"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/20> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q161219> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/21#offset_161_172> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "human error" ;
+    nif:beginIndex "161"^^xsd:nonNegativeInteger ;
+    nif:endIndex "172"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/21> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q5937752> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/21#offset_24_38> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "operating room" ;
+    nif:beginIndex "24"^^xsd:nonNegativeInteger ;
+    nif:endIndex "38"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/21> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q1060822> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/21#offset_309_329> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "operating room teams" ;
+    nif:beginIndex "309"^^xsd:nonNegativeInteger ;
+    nif:endIndex "329"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/21> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q7646223> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/21#offset_353_361> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "hospital" ;
+    nif:beginIndex "353"^^xsd:nonNegativeInteger ;
+    nif:endIndex "361"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/21> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q16917> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/21#offset_386_410> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "operating room personnel" ;
+    nif:beginIndex "386"^^xsd:nonNegativeInteger ;
+    nif:endIndex "410"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/21> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q7646223> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/21#offset_419_427> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "hospital" ;
+    nif:beginIndex "419"^^xsd:nonNegativeInteger ;
+    nif:endIndex "427"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/21> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q16917> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/22#offset_0_10> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Volatility" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "10"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/22> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q756115> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/22#offset_161_168> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Bitcoin" ;
+    nif:beginIndex "161"^^xsd:nonNegativeInteger ;
+    nif:endIndex "168"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/22> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q131723> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/22#offset_26_33> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Bitcoin" ;
+    nif:beginIndex "26"^^xsd:nonNegativeInteger ;
+    nif:endIndex "33"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/22> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q131723> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/22#offset_51_63> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "GARCH models" ;
+    nif:beginIndex "51"^^xsd:nonNegativeInteger ;
+    nif:endIndex "63"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/22> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q180752> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/22#offset_89_125> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "conditional heteroskedasticity model" ;
+    nif:beginIndex "89"^^xsd:nonNegativeInteger ;
+    nif:endIndex "125"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/22> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q180752> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/23#offset_119_137> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "energy consumption" ;
+    nif:beginIndex "119"^^xsd:nonNegativeInteger ;
+    nif:endIndex "137"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/23> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q16869822> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/23#offset_1209_1228> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "energy consumptions" ;
+    nif:beginIndex "1209"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1228"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/23> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q16869822> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/23#offset_1232_1236> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "BRIC" ;
+    nif:beginIndex "1232"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1236"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/23> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q833202> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/23#offset_1603_1621> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "energy consumption" ;
+    nif:beginIndex "1603"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1621"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/23> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q16869822> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/23#offset_279_298> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "energy consumptions" ;
+    nif:beginIndex "279"^^xsd:nonNegativeInteger ;
+    nif:endIndex "298"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/23> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q16869822> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/23#offset_43_62> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "energy consumptions" ;
+    nif:beginIndex "43"^^xsd:nonNegativeInteger ;
+    nif:endIndex "62"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/23> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q16869822> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/23#offset_578_597> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "energy consumptions" ;
+    nif:beginIndex "578"^^xsd:nonNegativeInteger ;
+    nif:endIndex "597"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/23> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q16869822> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/23#offset_601_603> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "US" ;
+    nif:beginIndex "601"^^xsd:nonNegativeInteger ;
+    nif:endIndex "603"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/23> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q30> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/23#offset_605_607> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "EU" ;
+    nif:beginIndex "605"^^xsd:nonNegativeInteger ;
+    nif:endIndex "607"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/23> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q458> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/23#offset_613_617> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "BRIC" ;
+    nif:beginIndex "613"^^xsd:nonNegativeInteger ;
+    nif:endIndex "617"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/23> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q833202> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/23#offset_794_812> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "energy consumption" ;
+    nif:beginIndex "794"^^xsd:nonNegativeInteger ;
+    nif:endIndex "812"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/23> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q16869822> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/23#offset_843_853> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "World Bank" ;
+    nif:beginIndex "843"^^xsd:nonNegativeInteger ;
+    nif:endIndex "853"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/23> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q7164> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/23#offset_859_893> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "United Nations Environment Program" ;
+    nif:beginIndex "859"^^xsd:nonNegativeInteger ;
+    nif:endIndex "893"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/23> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q182016> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/23#offset_899_940> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Intergovernmental Panel on Climate Change" ;
+    nif:beginIndex "899"^^xsd:nonNegativeInteger ;
+    nif:endIndex "940"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/23> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q171183> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/23#offset_950_977> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "International Energy Agency" ;
+    nif:beginIndex "950"^^xsd:nonNegativeInteger ;
+    nif:endIndex "977"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/23> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q826700> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/24#offset_1051_1064> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "job knowledge" ;
+    nif:beginIndex "1051"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1064"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/24> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q9081> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/24#offset_21_38> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "cognitive ability" ;
+    nif:beginIndex "21"^^xsd:nonNegativeInteger ;
+    nif:endIndex "38"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/24> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q20655516> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/24#offset_248_255> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Ability" ;
+    nif:beginIndex "248"^^xsd:nonNegativeInteger ;
+    nif:endIndex "255"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/24> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q20655516> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/24#offset_257_270> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "job knowledge" ;
+    nif:beginIndex "257"^^xsd:nonNegativeInteger ;
+    nif:endIndex "270"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/24> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q9081> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/24#offset_276_287> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "performance" ;
+    nif:beginIndex "276"^^xsd:nonNegativeInteger ;
+    nif:endIndex "287"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/24> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q6206740> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/24#offset_393_400> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Ability" ;
+    nif:beginIndex "393"^^xsd:nonNegativeInteger ;
+    nif:endIndex "400"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/24> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q20655516> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/24#offset_40_53> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "job knowledge" ;
+    nif:beginIndex "40"^^xsd:nonNegativeInteger ;
+    nif:endIndex "53"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/24> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q9081> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/24#offset_422_433> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "performance" ;
+    nif:beginIndex "422"^^xsd:nonNegativeInteger ;
+    nif:endIndex "433"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/24> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q6206740> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/24#offset_55_70> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "job performance" ;
+    nif:beginIndex "55"^^xsd:nonNegativeInteger ;
+    nif:endIndex "70"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/24> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q6206740> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/24#offset_574_591> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "cognitive ability" ;
+    nif:beginIndex "574"^^xsd:nonNegativeInteger ;
+    nif:endIndex "591"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/24> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q20655516> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/24#offset_601_608> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "ability" ;
+    nif:beginIndex "601"^^xsd:nonNegativeInteger ;
+    nif:endIndex "608"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/24> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q20655516> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/24#offset_663_672> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "knowledge" ;
+    nif:beginIndex "663"^^xsd:nonNegativeInteger ;
+    nif:endIndex "672"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/24> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q9081> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/24#offset_710_721> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "performance" ;
+    nif:beginIndex "710"^^xsd:nonNegativeInteger ;
+    nif:endIndex "721"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/24> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q6206740> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/24#offset_723_730> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Ability" ;
+    nif:beginIndex "723"^^xsd:nonNegativeInteger ;
+    nif:endIndex "730"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/24> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q20655516> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/25#offset_209_236> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "efficient market hypothesis" ;
+    nif:beginIndex "209"^^xsd:nonNegativeInteger ;
+    nif:endIndex "236"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/25> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q724931> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/25#offset_23_30> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Bitcoin" ;
+    nif:beginIndex "23"^^xsd:nonNegativeInteger ;
+    nif:endIndex "30"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/25> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q131723> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/25#offset_293_300> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Bitcoin" ;
+    nif:beginIndex "293"^^xsd:nonNegativeInteger ;
+    nif:endIndex "300"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/25> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q131723> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/25#offset_324_334> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "hypothesis" ;
+    nif:beginIndex "324"^^xsd:nonNegativeInteger ;
+    nif:endIndex "334"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/25> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q724931> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/25#offset_66_83> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "market efficiency" ;
+    nif:beginIndex "66"^^xsd:nonNegativeInteger ;
+    nif:endIndex "83"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/25> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q5449728> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/25#offset_87_94> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Bitcoin" ;
+    nif:beginIndex "87"^^xsd:nonNegativeInteger ;
+    nif:endIndex "94"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/25> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q131723> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/26#offset_186_191> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "hedge" ;
+    nif:beginIndex "186"^^xsd:nonNegativeInteger ;
+    nif:endIndex "191"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/26> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q547416> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/26#offset_260_283> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "general commodity index" ;
+    nif:beginIndex "260"^^xsd:nonNegativeInteger ;
+    nif:endIndex "283"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/26> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q2162462> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/26#offset_292_307> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "US dollar index" ;
+    nif:beginIndex "292"^^xsd:nonNegativeInteger ;
+    nif:endIndex "307"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/26> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q536652> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/26#offset_414_421> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Bitcoin" ;
+    nif:beginIndex "414"^^xsd:nonNegativeInteger ;
+    nif:endIndex "421"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/26> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q131723> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/26#offset_42_49> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Bitcoin" ;
+    nif:beginIndex "42"^^xsd:nonNegativeInteger ;
+    nif:endIndex "49"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/26> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q131723> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/26#offset_432_437> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "hedge" ;
+    nif:beginIndex "432"^^xsd:nonNegativeInteger ;
+    nif:endIndex "437"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/26> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q547416> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/26#offset_498_505> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Bitcoin" ;
+    nif:beginIndex "498"^^xsd:nonNegativeInteger ;
+    nif:endIndex "505"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/26> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q131723> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/26#offset_625_632> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "hedging" ;
+    nif:beginIndex "625"^^xsd:nonNegativeInteger ;
+    nif:endIndex "632"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/26> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q547416> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/26#offset_7_12> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "hedge" ;
+    nif:beginIndex "7"^^xsd:nonNegativeInteger ;
+    nif:endIndex "12"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/26> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q547416> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/27#offset_100_113> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "systemic risk" ;
+    nif:beginIndex "100"^^xsd:nonNegativeInteger ;
+    nif:endIndex "113"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/27> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q1975416> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/27#offset_346_369> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "recent financial crisis" ;
+    nif:beginIndex "346"^^xsd:nonNegativeInteger ;
+    nif:endIndex "369"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/27> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q896666> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/27#offset_474_484> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Fannie Mae" ;
+    nif:beginIndex "474"^^xsd:nonNegativeInteger ;
+    nif:endIndex "484"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/27> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q621096> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/27#offset_486_497> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Freddie Mac" ;
+    nif:beginIndex "486"^^xsd:nonNegativeInteger ;
+    nif:endIndex "497"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/27> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q935969> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/27#offset_499_513> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Morgan Stanley" ;
+    nif:beginIndex "499"^^xsd:nonNegativeInteger ;
+    nif:endIndex "513"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/27> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q448532> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/27#offset_50_63> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "systemic risk" ;
+    nif:beginIndex "50"^^xsd:nonNegativeInteger ;
+    nif:endIndex "63"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/27> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q1975416> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/27#offset_515_527> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Bear Stearns" ;
+    nif:beginIndex "515"^^xsd:nonNegativeInteger ;
+    nif:endIndex "527"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/27> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q813018> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/27#offset_533_548> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Lehman Brothers" ;
+    nif:beginIndex "533"^^xsd:nonNegativeInteger ;
+    nif:endIndex "548"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/27> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q212900> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/28#offset_556_560> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "SPSS" ;
+    nif:beginIndex "556"^^xsd:nonNegativeInteger ;
+    nif:endIndex "560"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/28> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q181596> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/28#offset_565_568> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "SAS" ;
+    nif:beginIndex "565"^^xsd:nonNegativeInteger ;
+    nif:endIndex "568"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/28> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q2003932> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/28#offset_595_623> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "structural equation modeling" ;
+    nif:beginIndex "595"^^xsd:nonNegativeInteger ;
+    nif:endIndex "623"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/28> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q1476639> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/28#offset_67_95> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "structural equation modeling" ;
+    nif:beginIndex "67"^^xsd:nonNegativeInteger ;
+    nif:endIndex "95"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/28> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q1476639> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/28#offset_731_759> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "structural equation modeling" ;
+    nif:beginIndex "731"^^xsd:nonNegativeInteger ;
+    nif:endIndex "759"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/28> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q1476639> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/28#offset_997_1025> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "structural equation modeling" ;
+    nif:beginIndex "997"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1025"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/28> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q1476639> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/29#offset_1037_1050> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "drug delivery" ;
+    nif:beginIndex "1037"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1050"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/29> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q1392806> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/29#offset_106_115> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "cellulose" ;
+    nif:beginIndex "106"^^xsd:nonNegativeInteger ;
+    nif:endIndex "115"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/29> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q80294> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/29#offset_12_20> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "chitosan" ;
+    nif:beginIndex "12"^^xsd:nonNegativeInteger ;
+    nif:endIndex "20"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/29> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q408510> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/29#offset_193_199> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "chitin" ;
+    nif:beginIndex "193"^^xsd:nonNegativeInteger ;
+    nif:endIndex "199"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/29> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q161219> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/29#offset_366_379> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "drug delivery" ;
+    nif:beginIndex "366"^^xsd:nonNegativeInteger ;
+    nif:endIndex "379"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/29> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q1392806> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/29#offset_456_464> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "chitosan" ;
+    nif:beginIndex "456"^^xsd:nonNegativeInteger ;
+    nif:endIndex "464"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/29> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q408510> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/29#offset_47_60> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "drug delivery" ;
+    nif:beginIndex "47"^^xsd:nonNegativeInteger ;
+    nif:endIndex "60"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/29> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q1392806> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/29#offset_64_72> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Chitosan" ;
+    nif:beginIndex "64"^^xsd:nonNegativeInteger ;
+    nif:endIndex "72"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/29> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q408510> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/29#offset_794_807> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "drug delivery" ;
+    nif:beginIndex "794"^^xsd:nonNegativeInteger ;
+    nif:endIndex "807"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/29> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q1392806> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/29#offset_872_880> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "chitosan" ;
+    nif:beginIndex "872"^^xsd:nonNegativeInteger ;
+    nif:endIndex "880"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/29> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q408510> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/29#offset_900_913> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "drug delivery" ;
+    nif:beginIndex "900"^^xsd:nonNegativeInteger ;
+    nif:endIndex "913"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/29> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q1392806> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/29#offset_938_946> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "chitosan" ;
+    nif:beginIndex "938"^^xsd:nonNegativeInteger ;
+    nif:endIndex "946"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/29> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q408510> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/30#offset_111_161> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Composite-based structural equation modeling (SEM)" ;
+    nif:beginIndex "111"^^xsd:nonNegativeInteger ;
+    nif:endIndex "161"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/30> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q1476639> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/30#offset_178_219> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "partial least squares path modeling (PLS)" ;
+    nif:beginIndex "178"^^xsd:nonNegativeInteger ;
+    nif:endIndex "219"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/30> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q2858899> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/30#offset_498_517> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "composite-based SEM" ;
+    nif:beginIndex "498"^^xsd:nonNegativeInteger ;
+    nif:endIndex "517"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/30> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q1476639> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/30#offset_56_100> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "composite-based structural equation modeling" ;
+    nif:beginIndex "56"^^xsd:nonNegativeInteger ;
+    nif:endIndex "100"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/30> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q1476639> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/30#offset_714_733> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "composite-based SEM" ;
+    nif:beginIndex "714"^^xsd:nonNegativeInteger ;
+    nif:endIndex "733"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/30> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q1476639> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/30#offset_894_897> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "PLS" ;
+    nif:beginIndex "894"^^xsd:nonNegativeInteger ;
+    nif:endIndex "897"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/30> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q2858899> .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/16> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "785"^^xsd:nonNegativeInteger ;
+    nif:isString "Unobservable Selection and Coefficient Stability: Theory and Evidence.  A common approach to evaluating robustness to omitted variable bias is to observe coefficient movements after inclusion of controls. This is informative only if selection on observables is informative about selection on unobservables. Although this link is known in theory in existing literature, very few empirical articles approach this formally. I develop an extension of the theory that connects bias explicitly to coefficient stability. I show that it is necessary to take into account coefficient and R-squared movements. I develop a formal bounding argument. I show two validation exercises and discuss application to the economics literature. Supplementary materials for this article are available online." .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/08> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1025"^^xsd:nonNegativeInteger ;
+    nif:isString "Perceived Organizational Support: A Meta-Analytic Evaluation of Organizational Support Theory.  Organizational support theory (OST) proposes that employees form a generalized perception concerning the extent to which the organization values their contributions and cares about their well-being (perceived organizational support, or POS). Based on hypotheses involving social exchange, attribution, and self-enhancement, we carried out a meta-analytic assessment of OST using results from 558 studies. OST was generally successful in its predictions concerning both the antecedents of POS (leadership, employee–organization context, human resource practices, and working conditions) and its consequences (employee’s orientation toward the organization and work, employee performance, and well-being). Notably, OST successfully predicted the relative magnitudes of different relationships, influences of process variables, and mediational effects. General implications of the findings for OST and research on POS are discussed." .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/13> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1230"^^xsd:nonNegativeInteger ;
+    nif:isString "Customer engagement: the construct, antecedents, and consequences.  In this study, we highlight the need and develop a framework for customer engagement (CE) by reviewing the marketing literature and analyzing popular press articles. By understanding the evolution of customer management, we develop the theory of engagement, arguing that when a relationship is satisfying and has emotional connectedness, the partners become engaged in their concern for each other. As a result, the components of customer engagement include both the direct and the indirect contributions of CE. Based on the theoretical support, our proposed framework elaborates on the components of CE as well as the antecedents (satisfaction and emotion) and consequences (tangible and intangible outcomes) of CE. We also discuss how convenience, nature of the firm (B2B vs. B2C), type of industry (service vs. product), value of the brand (high vs. low), and level of involvement (high vs. low) moderate the link between satisfaction and direct contribution, and between emotions and indirect contribution of CE, respectively. Further, we show how customer engagement can be gained and how firm performance can be maximized by discussing relevant strategies." .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/10> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1508"^^xsd:nonNegativeInteger ;
+    nif:isString "Contemporary guidance for stated preference studies.  This article proposes contemporary best-practice recommendations for stated preference (SP) studies used to inform decision making, grounded in the accumulated body of peer-reviewed literature. These recommendations consider the use of SP methods to estimate both use and non-use (passive-use) values, and cover the broad SP domain, including contingent valuation and discrete choice experiments. We focus on applications to public goods in the context of the environment and human health but also consider ways in which the proposed recommendations might apply to other common areas of application. The recommendations recognize that SP results may be used and reused (benefit transfers) by governmental agencies and nongovernmental organizations, and that all such applications must be considered. The intended result is a set of guidelines for SP studies that is more comprehensive than that of the original National Oceanic and Atmospheric Administration (NOAA) Blue Ribbon Panel on contingent valuation, is more germane to contemporary applications, and reflects the two decades of research since that time. We also distinguish between practices for which accumulated research is sufficient to support recommendations and those for which greater uncertainty remains. The goal of this article is to raise the quality of SP studies used to support decision making and promote research that will further enhance the practice of these studies worldwide." .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/22> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "350"^^xsd:nonNegativeInteger ;
+    nif:isString "Volatility estimation for Bitcoin: A comparison of GARCH models.  We explore the optimal conditional heteroskedasticity model with regards to goodness-of-fit to Bitcoin price data. It is found that the best model is the AR-CGARCH model, highlighting the significance of including both a short-run and a long-run component of the conditional variance." .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/20> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "798"^^xsd:nonNegativeInteger ;
+    nif:isString "Chitosan as a bioactive polymer: Processing, properties and applications.  Chitin is one of the most abundant natural polysaccharides in the world and it is mainly used for the production of chitosan by a deacetylation process. Chitosan is a bioactive polymer with a wide variety of applications due to its functional properties such as antibacterial activity, non-toxicity, ease of modification, and biodegradability. This review summarizes the most common chitosan processing methods and highlights some applications of chitosan in various industrial and biomedical fields. Finally, environmental concerns of chitosan-based films, considering the stages from raw materials extraction up to the end of life after disposal, are also discussed with the aim of finding more eco-friendly alternatives." .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/21> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "501"^^xsd:nonNegativeInteger ;
+    nif:isString "Team performance in the operating room.  Surgical procedures require the coordinated efforts of doctors and nurses working under time pressure. In this setting, human error can result in death or permanent damage to a patient. This chapter discusses the multiple factors that influence the performance of the operating room teams of a European teaching hospital. Results of a survey of operating room personnel in this hospital are presented along with observations of team behavior during operations." .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/25> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "442"^^xsd:nonNegativeInteger ;
+    nif:isString "On the inefficiency of Bitcoin.  Urquhart (2016) investigated the market efficiency of Bitcoin by means of five different tests on Bitcoin returns. It was concluded that the Bitcoin returns do not satisfy the efficient market hypothesis. We show here that a simple power transformation of the Bitcoin returns do satisfy the hypothesis through the use of eight different tests. The transformation used does not lead to any loss of information." .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/28> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1026"^^xsd:nonNegativeInteger ;
+    nif:isString "The analysis of mechanisms and their contingencies: PROCESS versus structural equation modeling.  Marketing, consumer, and organizational behavior researchers interested in studying the mechanisms by which effects operate and the conditions that enhance or inhibit such effects often rely on statistical mediation and conditional process analysis (also known as the analysis of “moderated mediation”). Model estimation is typically undertaken with ordinary least squares regression-based path analysis, such as implemented in the popular PROCESS macro for SPSS and SAS (Hayes, 2013), or using a structural equation modeling program. In this paper we answer a few frequently-asked questions about the difference between PROCESS and structural equation modeling and show by way of example that, for observed variable models, the choice of which to use is inconsequential, as the results are largely identical. We end by discussing considerations to ponder when making the choice between PROCESS and structural equation modeling." .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/30> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1159"^^xsd:nonNegativeInteger ;
+    nif:isString "Mirror, mirror on the wall: a comparative evaluation of composite-based structural equation modeling methods.  Composite-based structural equation modeling (SEM), and especially partial least squares path modeling (PLS), has gained increasing dissemination in marketing. To fully exploit the potential of these methods, researchers must know about their relative performance and the settings that favor each method’s use. While numerous simulation studies have aimed to evaluate the performance of composite-based SEM methods, practically all of them defined populations using common factor models, thereby assessing the methods on erroneous grounds. This study is the first to offer a comprehensive assessment of composite-based SEM techniques on the basis of composite model data, considering a broad range of model constellations. Results of a large-scale simulation study substantiate that PLS and generalized structured component analysis are consistent estimators when the underlying population is composite model-based. While both methods outperform sum scores regression in terms of parameter recovery, PLS achieves slightly greater statistical power." .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/02> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "678"^^xsd:nonNegativeInteger ;
+    nif:isString "An equilibrium queuing model of bribery.  It is sometimes argued that bribery is inefficient because bureaucrats may cause delays for attracting more bribes. This hypothesis is examined in the context of a queue where customers having different values of time are ranked by their bribe payments to the queue's server. The Nash equilibrium strategies of the customers are de- rived. It is shown that the server is unlikely to slow down the allocation process when bribery is allowed. The model does not have strin- gent informational requirements, and the equilibrium outcome minimizes the average value of time costs of the queue. It also suggests a useful auctioning procedure." .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/05> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1486"^^xsd:nonNegativeInteger ;
+    nif:isString "The Circular Economy: An Interdisciplinary Exploration of the Concept and Application in a Global Context.   There have long been calls from industry for guidance in implementing strategies for sustainable development. The Circular Economy represents the most recent attempt to conceptualize the integration of economic activity and environmental wellbeing in a sustainable way. This set of ideas has been adopted by China as the basis of their economic development (included in both the 11th and the 12th ‘Five Year Plan’), escalating the concept in minds of western policymakers and NGOs. This paper traces the conceptualisations and origins of the Circular Economy, tracing its meanings, and exploring its antecedents in economics and ecology, and discusses how the Circular Economy has been operationalized in business and policy. The paper finds that while the Circular Economy places emphasis on the redesign of processes and cycling of materials, which may contribute to more sustainable business models, it also encapsulates tensions and limitations. These include an absence of the social dimension inherent in sustainable development that limits its ethical dimensions, and some unintended consequences. This leads us to propose a revised definition of the Circular Economy as “an economic model wherein planning, resourcing, procurement, production and reprocessing are designed and managed, as both process and output, to maximize ecosystem functioning and human well-being”" .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/11> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "714"^^xsd:nonNegativeInteger ;
+    nif:isString "Measuring systemic risk.  We present an economic model of systemic risk in which undercapitalization of the financial sector as a whole is assumed to harm the real economy, leading to a systemic risk externality. Each financial institution's contribution to systemic risk can be measured as its systemic expected shortfall (SES), that is, its propensity to be undercapitalized when the system as a whole is undercapitalized. SES increases in the institution's leverage and its marginal expected shortfall (MES), that is, its losses in the tail of the system's loss distribution. We demonstrate empirically the ability of components of SES to predict emerging systemic risk during the financial crisis of 2007-2009." .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/17> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1266"^^xsd:nonNegativeInteger ;
+    nif:isString "A survey and analysis of the first 40 years of scholarly literature in DEA: 1978–2016  In recent years there has been an exponential growth in the number of publications related to theory and applications of Data Envelopment Analysis (DEA). Charnes, Cooper, and Rhodes (1978) introduced DEA as a tool for measuring efficiency and productivity of decision making units. DEA has immediately been recognized as a modern tool for performance measurement. Since then, a large and considerable amount of articles has been appeared, including significant breakthroughs in theory and a great portion of works on DEA applications, both public and private sectors, to assess the efficiency and productivity of their activities. Although there have been several bibliographic collections reported, a comprehensive analysis and listing of DEA-related articles covering its first four decades of history is still missing. This paper, thus, aims to report an extensive listing of DEA-related articles including theory and methodology developments and “real” applications in diversified scenarios from 1978 to end of 2016. Some summary statistics of the publications' growth, the most utilized academic journals, authorship analysis, as well as keywords analysis are also provided." .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/09> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1310"^^xsd:nonNegativeInteger ;
+    nif:isString "Circular Economy: The Concept and its Limitations.  Circular economy (CE) is currently a popular concept promoted by the EU, by several national governments and by many businesses around the world. However, the scientific and research content of the CE concept is superficial and unorganized. CE seems to be a collection of vague and separate ideas from several fields and semi-scientific concepts. The objective of this article is to contribute to the scientific research on CE. First, we will define the concept of CE from the perspective of WCED sustainable development and sustainability science. Second, we will conduct a critical analysis of the concept from the perspective of environmental sustainability. The analysis identifies six challenges, for example those of thermodynamics and system boundaries, that need to be resolved for CE to be able to contribute to global net sustainability. These six challenges also serve as research themes and objectives for scholars interested in making progress in sustainable development through the usage of circular economy. CE is important for its power to attract both the business community and policy-making community to sustainability work, but it needs scientific research to secure that the actual environmental impacts of CE work toward sustainability." .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/15> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1678"^^xsd:nonNegativeInteger ;
+    nif:isString "The gender wage gap: Extent, trends, & explanations.  Using Panel Study of Income Dynamics (PSID) microdata over the 1980-2010 period, we provide new empirical evidence on the extent of and trends in the gender wage gap, which declined considerably during this time. By 2010, conventional human capital variables taken together explained little of the gender wage gap, while gender differences in occupation and industry continued to be important. Moreover, the gender pay gap declined much more slowly at the top of the wage distribution than at the middle or bottom and by 2010 was noticeably higher at the top. We then survey the literature to identify what has been learned about the explanations for the gap. We conclude that many of the traditional explanations continue to have salience. Although human- capital factors are now relatively unimportant in the aggregate, women's work force interruptions and shorter hours remain significant in high-skilled occupations, possibly due to compensating differentials. Gender differences in occupations and industries, as well as differences in gender roles and the gender division of labor remain important, and research based on experimental evidence strongly suggests that discrimination cannot be discounted. Psychological attributes or noncognitive skills comprise one of the newer explanations for gender differences in outcomes. Our effort to assess the quantitative evidence on the importance of these factors suggests that they account for a small to moderate portion of the gender pay gap, considerably smaller than, say, occupation and industry effects, though they appear to modestly contribute to these differences." .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/18> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "814"^^xsd:nonNegativeInteger ;
+    nif:isString "Racial discrimination in the sharing economy: Evidence from a field experiment.  In an experiment on Airbnb, we find that applications from guests with distinctively African American names are 16 percent less likely to be accepted relative to identical guests with distinctively white names. Discrimination occurs among landlords of all sizes, including small landlords sharing the property and larger landlords with multiple properties. It is most pronounced among hosts who have never had an African American guest, suggesting only a subset of hosts discriminate. While rental markets have achieved significant reductions in discrimination in recent decades, our results suggest that Airbnb's current design choices facilitate discrimination and raise the possibility of erasing some of these civil rights gains." .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/27> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "690"^^xsd:nonNegativeInteger ;
+    nif:isString "SRISK: A conditional capital shortfall measure of systemic risk.  We introduce SRISK to measure the systemic risk contribution of a financial firm. SRISK measures the capital shortfall of a firm conditional on a severe market decline, and is a function of its size, leverage and risk.We use the measure to study top financial institutions in the recent financial crisis. SRISK delivers useful rankings of systemic institutions at various stages of the crisis and identifies Fannie Mae, Freddie Mac, Morgan Stanley, Bear Stearns, and Lehman Brothers as top contributors as early as 2005-Q1. Moreover, aggregate SRISK provides early warning signals of distress in indicators of real activity." .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/19> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "730"^^xsd:nonNegativeInteger ;
+    nif:isString "Social Capital, Trust, and Firm Performance: The Value of Corporate Social Responsibility during the Financial Crisis.  During the 2008–2009 financial crisis, firms with high social capital, as measured by corporate social responsibility (CSR) intensity, had stock returns that were four to seven percentage points higher than firms with low social capital. High-CSR firms also experienced higher profitability, growth, and sales per employee relative to low-CSR firms, and they raised more debt. This evidence suggests that the trust between a firm and both its stakeholders and investors, built through investments in social capital, pays off when the overall level of trust in corporations and markets suffers a negative shock." .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/26> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "681"^^xsd:nonNegativeInteger ;
+    nif:isString "On the hedge and safe haven properties of Bitcoin: Is it really more than a diversifier?  This paper uses a dynamic conditional correlation model to examine whether Bitcoin can act as a hedge and safe haven for major world stock indices, bonds, oil, gold, the general commodity index and the US dollar index. Daily and weekly data span from July 2011 to December 2015. Overall, the empirical results indicate that Bitcoin is a poor hedge and is suitable for diversification purposes only. However, Bitcoin can only serve as a strong safe haven against weekly extreme down movements in Asian stocks. We also show that Bitcoin hedging and safe haven properties vary between horizons." .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/06> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "771"^^xsd:nonNegativeInteger ;
+    nif:isString "The Relational Organization of Entrepreneurial Ecosystems.   Entrepreneurial ecosystems have emerged as a popular concept to explain the persistence of high-growth entrepreneurship within regions. However, as a theoretical concept ecosystems remain underdeveloped, making it difficult to understand their structure and influence on the entrepreneurship process. The article argues that ecosystems are composed of 10 cultural, social, and material attributes that provide benefits and resources to entrepreneurs and that the relationships between these attributes reproduce the ecosystem. This model is illustrated with case studies of Waterloo, Ontario, and Calgary, Alberta, Canada. The cases demonstrate the variety of different configurations that ecosystems can take." .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/12> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1138"^^xsd:nonNegativeInteger ;
+    nif:isString "Operating at the sharp end: The complexity of human error.   Studies of incidents in medicine and other fields attribute most bad outcomes to a category of human performance labeled human error. For example, surveys of anesthetic incidents in the operating room have attributed between 70% and 82% of the incidents surveyed to the human element (Chopra, Bovill, Spierdijk, & Koornneef, 1992; Cooper, Newbower, Long, & McPeek, 1978). Similar surveys in aviation have attributed more than 70% of incidents to crew error (Boeing Product Safety Organization, 1993). In general, incident surveys in a variety of industries attribute similar percentages of critical events to human error (for example, see Hollnagel, 1993, Table 1). The result is the perception, in both professional and lay communities, of a “human error problem” in medicine, aviation, nuclear power generation, and similar domains. To cope with this perceived unreliability of people, it is conventional to try to reduce or regiment the human’s role in a risky system by enforcing standard practices and work rules and by using automation to shift activity away from people." .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/14> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "2139"^^xsd:nonNegativeInteger ;
+    nif:isString "Mortality and morbidity in the 21st century.  Building on our earlier research (Case and Deaton 2015), we find that mortality and morbidity among white non-Hispanic Americans in midlife since the turn of the century continued to climb through 2015. Additional increases in drug overdoses, suicides, and alcohol-related liver mortality- particularly among those with a high school degree or less-are responsible for an overall increase in all-cause mortality among whites. We find marked differences in mortality by race and education, with mortality among white non- Hispanics (males and females) rising for those without a college degree, and falling for those with a college degree. In contrast, mortality rates among blacks and Hispanics have continued to fall, irrespective of educational attainment. Mortality rates in comparably rich countries have continued their premillennial fall at the rates that used to characterize the United States. Contemporaneous levels of resources-particularly slowly growing, stagnant, and even declining incomes-cannot provide a comprehensive explanation for poor mortality outcomes. We propose a preliminary but plausible story in which cumulative disadvantage from one birth cohort to the next-in the labor market, in marriage and child outcomes, and in health-is triggered by progressively worsening labor market opportunities at the time of entry for whites with low levels of education. This account, which fits much of the data, has the profoundly negative implication that policies-even ones that successfully improve earnings and jobs, or redistribute income-will take many years to reverse the increase in mortality and morbidity, and that those in midlife now are likely to do worse in old age than the current elderly. This is in contrast to accounts in which resources affect health contemporaneously, so that those in midlife now can expect to do better in old age as they receive Social Security and Medicare. None of this, however, implies that there are no policy levers to be pulled. For instance, reducing the overprescription of opioids should be an obvious target for policymakers." .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/29> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1075"^^xsd:nonNegativeInteger ;
+    nif:isString "A review on chitosan and its nanocomposites in drug delivery.   Chitosan the second most abundant next to cellulose, naturally occurring amino polysaccharide, derived as a deacetylated form of chitin. Its nontoxic, biocompatible, antibacterial and biodegradable properties have led to significant research towards biomedical and pharmaceutical applications, such as drug delivery, tissue engineering, wound-healing dressing etc. The primary amine group in chitosan are responsible for its various properties such as cationic nature, controlled drug release, muco-adhesion, in situ gelation, antimicrobial, permeation enhancement etc. This review discusses the various forms of chitosan materials such as beads, films, microspheres, nanoparticles, nanofibers, hydrogels, nanocomposites, etc. as drug delivery device and attempted to report the vast literature available on chitosan based materials in drug delivery applications. Moreover, chitosan derivatives and chitosan nanocomposites with different nanofillers and its application in drug delivery have also been reviewed." .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/04> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1203"^^xsd:nonNegativeInteger ;
+    nif:isString "The rise of the sharing economy: Estimating the impact of airbnb on the hotel industry.  Peer-to-peer markets, collectively known as the sharing economy, have emerged as alternative suppliers of goods and services traditionally provided by long-established industries. The authors explore the economic impact of the sharing economy on incumbent firms by studying the case of Airbnb, a prominent platform for short-term accommodations. They analyze Airbnb's entry into the state of Texas and quantify its impact on the Texas hotel industry over the subsequent decade. In Austin, where Airbnb supply is highest, the causal impact on hotel revenue is in the 8%-10% range; moreover, the impact is nonuniform, with lower-priced hotels and hotels that do not cater to business travelers being the most affected. The impact manifests itself primarily through less aggressive hotel room pricing, benefiting all consumers, not just participants in the sharing economy. The price response is especially pronounced during periods of peak demand, such as during the South by Southwest festival, and is due to a differentiating feature of peer-to-peer platforms-enabling instantaneous supply to scale to meet demand." .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/24> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1065"^^xsd:nonNegativeInteger ;
+    nif:isString "A causal analysis of cognitive ability, job knowledge, job performance, and supervisor ratings.  This chapter presents a metaanalysis of 14 empirical studies that assessed the correlations between three variables relevant to performance appraisal: Ability, job knowledge, and performance itself. Performance is represented by two kinds of measurement: Job-sample tests and supervisor ratings. Ability should be related to performance in two ways. First, to the extent that the job calls for reasoning, planning, or memory, speed and smoothness of performance will depend on cognitive ability. Second, ability determines the extent to which the person masters the knowledge required for efficient and excellent performance. Ability is especially important if the job requires adjustment to novel circumstances or change in behavior due to changing job requirements. The greater the extent to which the job can be laid out in manuals or training programs, the greater the extent to which ability will be relevant only indirectly through its relation to job knowledge." .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/23> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1934"^^xsd:nonNegativeInteger ;
+    nif:isString "A cross-country comparison of the building energy consumptions and their trends.  Although it is often stated that the energy consumption in buildings accounts for more than 30% of total global final energy use, only a few studies analyze updated data about the current building energy consumptions or focus on comparing different countries. Similarly, models that predict future trends in building energy demand often use contrasting algorithms which result in diverse forecasts. Scope of this paper is to present and discuss data taken from several studies about the building energy consumptions in US, EU, and BRIC (Brazil, Russia, India, and China) countries and to provide an updated inventory of useful figures. Comparisons among countries are used to show historical, actual, and future energy consumption trends. Data presented by the World Bank, the United Nations Environment Program, the Intergovernmental Panel on Climate Change, and the International Energy Agency are compared with national reports as well as with research studies. The variety of the approaches used in each of the previous sources was considered fundamental to allow a complete review. The paper shows that the total building energy consumptions in BRIC countries have already overcome those in developed countries, and the continuous increase in the building stock of the BRIC countries creates an urgency for promoting building energy efficiency policies in these countries. At the same time, the policies actually adopted in developed countries are insufficient to guarantee a significant reduction in their building energy consumption in the years to come. In the current scenario, at least a doubling of the global energy demand in buildings compared to today's levels will occur by 2050. To avoid this forecast, cost-effective best practices and technologies as well as behavioral and lifestyle changes need to be diffused and accepted globally." .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/01> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1165"^^xsd:nonNegativeInteger ;
+    nif:isString "Social media and fake news in the 2016 election.  Following the 2016 US presidential election, many have expressed concern about the effects of false stories (\"fake news\"), circulated largely through social media. We discuss the economics of fake news and present new data on its consumption prior to the election. Drawing on web browsing data, archives of fact-checking websites, and results from a new online survey, we find: 1) social media was an important but not dominant source of election news, with 14 percent of Americans calling social media their \"most important\" source; 2) of the known false news stories that appeared in the three months before the election, those favoring Trump were shared a total of 30 million times on Facebook, while those favoring Clinton were shared 8 million times; 3) the average American adult saw on the order of one or perhaps several fake news stories in the months around the election, with just over half of those who recalled seeing them believing them; and 4) people are much more likely to believe stories that favor their preferred candidate, especially if they have ideologically segregated social media networks." .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/03> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1465"^^xsd:nonNegativeInteger ;
+    nif:isString "Conceptualizing the circular economy: An analysis of 114 definitions.  The circular economy concept has gained momentum both among scholars and practitioners. However, critics claim that it means many different things to different people. This paper provides further evidence for these critics. The aim of this paper is to create transparency regarding the current understandings of the circular economy concept. For this purpose, we have gathered 114 circular economy definitions which were coded on 17 dimensions. Our findings indicate that the circular economy is most frequently depicted as a combination of reduce, reuse and recycle activities, whereas it is oftentimes not highlighted that CE necessitates a systemic shift. We further find that the definitions show few explicit linkages of the circular economy concept to sustainable development. The main aim of the circular economy is considered to be economic prosperity, followed by environmental quality; its impact on social equity and future generations is barely mentioned. Furthermore, neither business models nor consumers are frequently outlined as enablers of the circular economy. We critically discuss the various circular economy conceptualizations throughout this paper. Overall, we hope to contribute via this study towards the coherence of the circular economy concept; we presume that significantly varying circular economy definitions may eventually result in the collapse of the concept." .
+
+<http://people.aifb.kit.edu/mfa/datasets/KARE-DYWC-2020.zip/07> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "990"^^xsd:nonNegativeInteger ;
+    nif:isString "The impact of renewable energy on economic well-being of Malaysia: Fresh evidence from auto regressive distributed lag bound testing approach.  This present study examines the role of renewable energy in influencing economic well-being in Malaysia. We used annual data over the period of 1980–2016 in order to apply recent econometrics. The study used renewable energy and economic growth as a proxy of economic well-being to examine the long run connection between renewable energy and economic well-being. The results of auto regressive distributed bound testing approach confirm the valid long-term connection among renewable energy and economic well-being in Malaysia. Furthermore, the results indicate that renewable energy have significant and positive impact on economic well-being in short and long run. It is therefore recommended that the policymakers are required to focus on the green energy generation sector by increasing renewable energy production from the existing sources." .
+

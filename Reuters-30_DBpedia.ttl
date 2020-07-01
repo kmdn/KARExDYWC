@@ -1,0 +1,1508 @@
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ns1: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://kit.edu/Reuters-30/DBpedia> a nif:ContextCollection ;
+    nif:hasContext <http://aksw.org/N3/Reuters-128/41>,
+        <http://aksw.org/N3/Reuters-128/13>,
+        <http://aksw.org/N3/Reuters-128/9>,
+        <http://aksw.org/N3/Reuters-128/74>,
+        <http://aksw.org/N3/Reuters-128/26>,
+        <http://aksw.org/N3/Reuters-128/101>,
+        <http://aksw.org/N3/Reuters-128/98>,
+        <http://aksw.org/N3/Reuters-128/18>,
+        <http://aksw.org/N3/Reuters-128/20>,
+        <http://aksw.org/N3/Reuters-128/69>,
+        <http://aksw.org/N3/Reuters-128/39>,
+        <http://aksw.org/N3/Reuters-128/21>,
+        <http://aksw.org/N3/Reuters-128/105>,
+        <http://aksw.org/N3/Reuters-128/36>,
+        <http://aksw.org/N3/Reuters-128/66>,
+        <http://aksw.org/N3/Reuters-128/71>,
+        <http://aksw.org/N3/Reuters-128/64>,
+        <http://aksw.org/N3/Reuters-128/16>,
+        <http://aksw.org/N3/Reuters-128/11>,
+        <http://aksw.org/N3/Reuters-128/77>,
+        <http://aksw.org/N3/Reuters-128/45>,
+        <http://aksw.org/N3/Reuters-128/2>,
+        <http://aksw.org/N3/Reuters-128/52>,
+        <http://aksw.org/N3/Reuters-128/57>,
+        <http://aksw.org/N3/Reuters-128/35>,
+        <http://aksw.org/N3/Reuters-128/40>,
+        <http://aksw.org/N3/Reuters-128/34>,
+        <http://aksw.org/N3/Reuters-128/76>,
+        <http://aksw.org/N3/Reuters-128/10>,
+        <http://aksw.org/N3/Reuters-128/54> ;
+    ns1:conformsTo <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://aksw.org/N3/Reuters-128/41#char=0,9> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Avnet Inc" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "9"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/41> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Avnet> .
+
+<http://aksw.org/N3/Reuters-128/41#char=33,67> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Securities and Exchange Commission" ;
+    nif:beginIndex "33"^^xsd:nonNegativeInteger ;
+    nif:endIndex "67"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/41> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/U.S._Securities_and_Exchange_Commission> .
+
+<http://aksw.org/N3/Reuters-128/41#char=433,455> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Dillon Read and Co Inc" ;
+    nif:beginIndex "433"^^xsd:nonNegativeInteger ;
+    nif:endIndex "455"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/41> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Dillon,_Read_%26_Co.> .
+
+<http://aksw.org/N3/Reuters-128/13#char=144,160> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Salomon Brothers" ;
+    nif:beginIndex "144"^^xsd:nonNegativeInteger ;
+    nif:endIndex "160"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/13> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Salomon_Brothers> .
+
+<http://aksw.org/N3/Reuters-128/9#char=46,61> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Rolls Royce Plc" ;
+    nif:beginIndex "46"^^xsd:nonNegativeInteger ;
+    nif:endIndex "61"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/9> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Rolls-Royce_plc> .
+
+<http://aksw.org/N3/Reuters-128/9#char=911,928> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Sir Francis Tombs" ;
+    nif:beginIndex "911"^^xsd:nonNegativeInteger ;
+    nif:endIndex "928"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/9> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Francis_Tombs,_Baron_Tombs> .
+
+<http://aksw.org/N3/Reuters-128/9#char=953,958> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Rolls" ;
+    nif:beginIndex "953"^^xsd:nonNegativeInteger ;
+    nif:endIndex "958"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/9> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Rolls-Royce_plc> .
+
+<http://aksw.org/N3/Reuters-128/74#char=0,13> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Ameribanc Inc" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "13"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/74> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/U.S._Bancorp> .
+
+<http://aksw.org/N3/Reuters-128/74#char=168,195> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Stifel, Nicolaus and Co Inc" ;
+    nif:beginIndex "168"^^xsd:nonNegativeInteger ;
+    nif:endIndex "195"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/74> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Stifel_Nicolaus> .
+
+<http://aksw.org/N3/Reuters-128/74#char=434,450> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Moodys Investors" ;
+    nif:beginIndex "434"^^xsd:nonNegativeInteger ;
+    nif:endIndex "450"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/74> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Moody's_Investors_Service> .
+
+<http://aksw.org/N3/Reuters-128/74#char=454,472> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Standard and Poors" ;
+    nif:beginIndex "454"^^xsd:nonNegativeInteger ;
+    nif:endIndex "472"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/74> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Standard_%26_Poor's> .
+
+<http://aksw.org/N3/Reuters-128/74#char=501,507> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Stifel" ;
+    nif:beginIndex "501"^^xsd:nonNegativeInteger ;
+    nif:endIndex "507"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/74> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Stifel_Nicolaus> .
+
+<http://aksw.org/N3/Reuters-128/26#char=0,10> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Asarco Inc" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "10"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/26> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/ASARCO> .
+
+<http://aksw.org/N3/Reuters-128/26#char=60,66> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Asarco" ;
+    nif:beginIndex "60"^^xsd:nonNegativeInteger ;
+    nif:endIndex "66"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/26> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/ASARCO> .
+
+<http://aksw.org/N3/Reuters-128/26#char=112,130> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "First Boston Corp." ;
+    nif:beginIndex "112"^^xsd:nonNegativeInteger ;
+    nif:endIndex "130"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/26> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/First_Boston> .
+
+<http://aksw.org/N3/Reuters-128/101#char=0,16> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Northern Telecom" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "16"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/101> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Nortel> .
+
+<http://aksw.org/N3/Reuters-128/101#char=94,124> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Nippon Telegraph and Telephone" ;
+    nif:beginIndex "94"^^xsd:nonNegativeInteger ;
+    nif:endIndex "124"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/101> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Nippon_Telegraph_and_Telephone> .
+
+<http://aksw.org/N3/Reuters-128/18#char=0,18> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Helen of Troy Corp" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "18"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/18> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Helen_of_Troy_Limited> .
+
+<http://aksw.org/N3/Reuters-128/18#char=322,335> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Helen of Troy" ;
+    nif:beginIndex "322"^^xsd:nonNegativeInteger ;
+    nif:endIndex "335"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/18> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Helen_of_Troy_Limited> .
+
+<http://aksw.org/N3/Reuters-128/18#char=360,386> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Drexel Burnham Lambert Inc" ;
+    nif:beginIndex "360"^^xsd:nonNegativeInteger ;
+    nif:endIndex "386"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/18> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Drexel_Burnham_Lambert> .
+
+<http://aksw.org/N3/Reuters-128/18#char=42,76> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Securities and Exchange Commission" ;
+    nif:beginIndex "42"^^xsd:nonNegativeInteger ;
+    nif:endIndex "76"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/18> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/U.S._Securities_and_Exchange_Commission> .
+
+<http://aksw.org/N3/Reuters-128/20#char=0,20> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Hanover Insurance Co" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "20"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/20> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Hanover_Insurance> .
+
+<http://aksw.org/N3/Reuters-128/20#char=105,112> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Hanover" ;
+    nif:beginIndex "105"^^xsd:nonNegativeInteger ;
+    nif:endIndex "112"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/20> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Hanover_Insurance> .
+
+<http://aksw.org/N3/Reuters-128/69#char=1023,1026> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "CPA" ;
+    nif:beginIndex "1023"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1026"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/69> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://de.dbpedia.org/resource/Cocoa_Producers’_Alliance> .
+
+<http://aksw.org/N3/Reuters-128/69#char=1258,1264> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Brazil" ;
+    nif:beginIndex "1258"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1264"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/69> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Brazil> .
+
+<http://aksw.org/N3/Reuters-128/69#char=137,167> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Cocoa Producers Alliance (CPA)" ;
+    nif:beginIndex "137"^^xsd:nonNegativeInteger ;
+    nif:endIndex "167"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/69> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://de.dbpedia.org/resource/Cocoa_Producers’_Alliance> .
+
+<http://aksw.org/N3/Reuters-128/69#char=1471,1474> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "CPA" ;
+    nif:beginIndex "1471"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1474"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/69> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://de.dbpedia.org/resource/Cocoa_Producers’_Alliance> .
+
+<http://aksw.org/N3/Reuters-128/69#char=1516,1527> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Ivory Coast" ;
+    nif:beginIndex "1516"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1527"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/69> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Ivory_Coast> .
+
+<http://aksw.org/N3/Reuters-128/69#char=1529,1535> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Brazil" ;
+    nif:beginIndex "1529"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1535"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/69> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Brazil> .
+
+<http://aksw.org/N3/Reuters-128/69#char=1540,1545> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Ghana" ;
+    nif:beginIndex "1540"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1545"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/69> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Ghana> .
+
+<http://aksw.org/N3/Reuters-128/69#char=302,305> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "CPA" ;
+    nif:beginIndex "302"^^xsd:nonNegativeInteger ;
+    nif:endIndex "305"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/69> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://de.dbpedia.org/resource/Cocoa_Producers’_Alliance> .
+
+<http://aksw.org/N3/Reuters-128/69#char=581,587> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "London" ;
+    nif:beginIndex "581"^^xsd:nonNegativeInteger ;
+    nif:endIndex "587"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/69> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/London> .
+
+<http://aksw.org/N3/Reuters-128/21#char=100,105> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Japan" ;
+    nif:beginIndex "100"^^xsd:nonNegativeInteger ;
+    nif:endIndex "105"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/21> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Japan> .
+
+<http://aksw.org/N3/Reuters-128/21#char=93,98> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Osaka" ;
+    nif:beginIndex "93"^^xsd:nonNegativeInteger ;
+    nif:endIndex "98"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/21> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Osaka> .
+
+<http://aksw.org/N3/Reuters-128/105#char=1334,1346> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "John Sandner" ;
+    nif:beginIndex "1334"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1346"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/105> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/John_F._Sandner> .
+
+<http://aksw.org/N3/Reuters-128/105#char=1380,1391> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Leo Melamed" ;
+    nif:beginIndex "1380"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1391"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/105> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Leo_Melamed> .
+
+<http://aksw.org/N3/Reuters-128/105#char=1743,1750> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Melamed" ;
+    nif:beginIndex "1743"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1750"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/105> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Leo_Melamed> .
+
+<http://aksw.org/N3/Reuters-128/105#char=203,237> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Securities and Exchange Commission" ;
+    nif:beginIndex "203"^^xsd:nonNegativeInteger ;
+    nif:endIndex "237"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/105> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/U.S._Securities_and_Exchange_Commission> .
+
+<http://aksw.org/N3/Reuters-128/105#char=300,303> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "CME" ;
+    nif:beginIndex "300"^^xsd:nonNegativeInteger ;
+    nif:endIndex "303"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/105> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/CME_Group> .
+
+<http://aksw.org/N3/Reuters-128/105#char=33,36> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "CME" ;
+    nif:beginIndex "33"^^xsd:nonNegativeInteger ;
+    nif:endIndex "36"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/105> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/CME_Group> .
+
+<http://aksw.org/N3/Reuters-128/105#char=4,31> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Chicago Mercantile Exchange" ;
+    nif:beginIndex "4"^^xsd:nonNegativeInteger ;
+    nif:endIndex "31"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/105> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/CME_Group> .
+
+<http://aksw.org/N3/Reuters-128/36#char=1000,1005> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Goria" ;
+    nif:beginIndex "1000"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1005"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/36> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Giovanni_Goria> .
+
+<http://aksw.org/N3/Reuters-128/36#char=1058,1072> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Group of Seven" ;
+    nif:beginIndex "1058"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1072"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/36> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/G7> .
+
+<http://aksw.org/N3/Reuters-128/36#char=1076,1081> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Paris" ;
+    nif:beginIndex "1076"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1081"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/36> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Paris> .
+
+<http://aksw.org/N3/Reuters-128/36#char=1088,1093> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Italy" ;
+    nif:beginIndex "1088"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1093"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/36> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Italy> .
+
+<http://aksw.org/N3/Reuters-128/36#char=113,126> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Group of Five" ;
+    nif:beginIndex "113"^^xsd:nonNegativeInteger ;
+    nif:endIndex "126"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/36> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Group_of_Five> .
+
+<http://aksw.org/N3/Reuters-128/36#char=215,234> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Gerhard Stoltenberg" ;
+    nif:beginIndex "215"^^xsd:nonNegativeInteger ;
+    nif:endIndex "234"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/36> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Gerhard_Stoltenberg> .
+
+<http://aksw.org/N3/Reuters-128/36#char=239,249> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Bundesbank" ;
+    nif:beginIndex "239"^^xsd:nonNegativeInteger ;
+    nif:endIndex "249"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/36> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Deutsche_Bundesbank> .
+
+<http://aksw.org/N3/Reuters-128/36#char=260,275> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Karl Otto Poehl" ;
+    nif:beginIndex "260"^^xsd:nonNegativeInteger ;
+    nif:endIndex "275"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/36> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Karl_Otto_Pöhl> .
+
+<http://aksw.org/N3/Reuters-128/36#char=301,317> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Edouard Balladur" ;
+    nif:beginIndex "301"^^xsd:nonNegativeInteger ;
+    nif:endIndex "317"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/36> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Édouard_Balladur> .
+
+<http://aksw.org/N3/Reuters-128/36#char=341,361> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Jacques de Larosiere" ;
+    nif:beginIndex "341"^^xsd:nonNegativeInteger ;
+    nif:endIndex "361"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/36> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Jacques_de_Larosière> .
+
+<http://aksw.org/N3/Reuters-128/36#char=413,428> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Kiichi Miyazawa" ;
+    nif:beginIndex "413"^^xsd:nonNegativeInteger ;
+    nif:endIndex "428"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/36> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Kiichi_Miyazawa> .
+
+<http://aksw.org/N3/Reuters-128/36#char=462,476> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Satoshi Sumita" ;
+    nif:beginIndex "462"^^xsd:nonNegativeInteger ;
+    nif:endIndex "476"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/36> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Satoshi_Sumita> .
+
+<http://aksw.org/N3/Reuters-128/36#char=543,564> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Robin Leigh Pemberton" ;
+    nif:beginIndex "543"^^xsd:nonNegativeInteger ;
+    nif:endIndex "564"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/36> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Robin_Leigh-Pemberton,_Baron_Kingsdown> .
+
+<http://aksw.org/N3/Reuters-128/36#char=59,63> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "U.S." ;
+    nif:beginIndex "59"^^xsd:nonNegativeInteger ;
+    nif:endIndex "63"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/36> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/United_States_Department_of_the_Treasury> .
+
+<http://aksw.org/N3/Reuters-128/36#char=64,72> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Treasury" ;
+    nif:beginIndex "64"^^xsd:nonNegativeInteger ;
+    nif:endIndex "72"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/36> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/United_States_Department_of_the_Treasury> .
+
+<http://aksw.org/N3/Reuters-128/36#char=684,698> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Group of Seven" ;
+    nif:beginIndex "684"^^xsd:nonNegativeInteger ;
+    nif:endIndex "698"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/36> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/G7> .
+
+<http://aksw.org/N3/Reuters-128/36#char=896,910> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Giovanni Goria" ;
+    nif:beginIndex "896"^^xsd:nonNegativeInteger ;
+    nif:endIndex "910"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/36> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Giovanni_Goria> .
+
+<http://aksw.org/N3/Reuters-128/36#char=915,923> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Treasury" ;
+    nif:beginIndex "915"^^xsd:nonNegativeInteger ;
+    nif:endIndex "923"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/36> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/United_States_Department_of_the_Treasury> .
+
+<http://aksw.org/N3/Reuters-128/36#char=934,945> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "James Baker" ;
+    nif:beginIndex "934"^^xsd:nonNegativeInteger ;
+    nif:endIndex "945"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/36> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/James_Baker> .
+
+<http://aksw.org/N3/Reuters-128/36#char=973,978> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Baker" ;
+    nif:beginIndex "973"^^xsd:nonNegativeInteger ;
+    nif:endIndex "978"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/36> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/James_Baker> .
+
+<http://aksw.org/N3/Reuters-128/66#char=0,7> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Britain" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "7"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/66> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/United_Kingdom> .
+
+<http://aksw.org/N3/Reuters-128/66#char=1029,1063> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Securities and Exchange Commission" ;
+    nif:beginIndex "1029"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1063"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/66> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/U.S._Securities_and_Exchange_Commission> .
+
+<http://aksw.org/N3/Reuters-128/66#char=1179,1183> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "U.K." ;
+    nif:beginIndex "1179"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1183"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/66> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Government_of_the_United_Kingdom> .
+
+<http://aksw.org/N3/Reuters-128/66#char=1184,1194> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Government" ;
+    nif:beginIndex "1184"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1194"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/66> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Government_of_the_United_Kingdom> .
+
+<http://aksw.org/N3/Reuters-128/66#char=124,127> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "U.S" ;
+    nif:beginIndex "124"^^xsd:nonNegativeInteger ;
+    nif:endIndex "127"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/66> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/United_States> .
+
+<http://aksw.org/N3/Reuters-128/66#char=133,138> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Japan" ;
+    nif:beginIndex "133"^^xsd:nonNegativeInteger ;
+    nif:endIndex "138"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/66> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Japan> .
+
+<http://aksw.org/N3/Reuters-128/66#char=169,201> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Department of Trade and Industry" ;
+    nif:beginIndex "169"^^xsd:nonNegativeInteger ;
+    nif:endIndex "201"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/66> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Department_of_Trade_and_Industry_(United_Kingdom)> .
+
+<http://aksw.org/N3/Reuters-128/66#char=267,290> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Japans Finance Ministry" ;
+    nif:beginIndex "267"^^xsd:nonNegativeInteger ;
+    nif:endIndex "290"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/66> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Ministry_of_Finance_(Japan)> .
+
+<http://aksw.org/N3/Reuters-128/66#char=447,452> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Japan" ;
+    nif:beginIndex "447"^^xsd:nonNegativeInteger ;
+    nif:endIndex "452"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/66> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Japan> .
+
+<http://aksw.org/N3/Reuters-128/66#char=477,493> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Finance Ministry" ;
+    nif:beginIndex "477"^^xsd:nonNegativeInteger ;
+    nif:endIndex "493"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/66> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Ministry_of_Finance_(Japan)> .
+
+<http://aksw.org/N3/Reuters-128/66#char=548,595> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "London International Financial Futures Exchange" ;
+    nif:beginIndex "548"^^xsd:nonNegativeInteger ;
+    nif:endIndex "595"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/66> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/London_International_Financial_Futures_and_Options_Exchange> .
+
+<http://aksw.org/N3/Reuters-128/66#char=604,642> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "London commodities and metal exchanges" ;
+    nif:beginIndex "604"^^xsd:nonNegativeInteger ;
+    nif:endIndex "642"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/66> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/London_Metal_Exchange> .
+
+<http://aksw.org/N3/Reuters-128/66#char=648,651> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "DTI" ;
+    nif:beginIndex "648"^^xsd:nonNegativeInteger ;
+    nif:endIndex "651"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/66> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Department_of_Trade_and_Industry_(United_Kingdom)> .
+
+<http://aksw.org/N3/Reuters-128/66#char=735,739> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "U.K." ;
+    nif:beginIndex "735"^^xsd:nonNegativeInteger ;
+    nif:endIndex "739"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/66> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/United_Kingdom> .
+
+<http://aksw.org/N3/Reuters-128/66#char=795,799> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "U.K." ;
+    nif:beginIndex "795"^^xsd:nonNegativeInteger ;
+    nif:endIndex "799"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/66> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/United_Kingdom> .
+
+<http://aksw.org/N3/Reuters-128/66#char=801,812> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Switzerland" ;
+    nif:beginIndex "801"^^xsd:nonNegativeInteger ;
+    nif:endIndex "812"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/66> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Switzerland> .
+
+<http://aksw.org/N3/Reuters-128/66#char=818,822> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "U.S." ;
+    nif:beginIndex "818"^^xsd:nonNegativeInteger ;
+    nif:endIndex "822"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/66> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/United_States> .
+
+<http://aksw.org/N3/Reuters-128/66#char=824,830> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Canada" ;
+    nif:beginIndex "824"^^xsd:nonNegativeInteger ;
+    nif:endIndex "830"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/66> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Canada> .
+
+<http://aksw.org/N3/Reuters-128/66#char=832,841> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Australia" ;
+    nif:beginIndex "832"^^xsd:nonNegativeInteger ;
+    nif:endIndex "841"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/66> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Australia> .
+
+<http://aksw.org/N3/Reuters-128/66#char=843,852> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Hong Kong" ;
+    nif:beginIndex "843"^^xsd:nonNegativeInteger ;
+    nif:endIndex "852"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/66> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Hong_Kong> .
+
+<http://aksw.org/N3/Reuters-128/66#char=854,859> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Japan" ;
+    nif:beginIndex "854"^^xsd:nonNegativeInteger ;
+    nif:endIndex "859"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/66> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Japan> .
+
+<http://aksw.org/N3/Reuters-128/66#char=861,867> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "France" ;
+    nif:beginIndex "861"^^xsd:nonNegativeInteger ;
+    nif:endIndex "867"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/66> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/France> .
+
+<http://aksw.org/N3/Reuters-128/66#char=869,881> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "West Germany" ;
+    nif:beginIndex "869"^^xsd:nonNegativeInteger ;
+    nif:endIndex "881"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/66> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/West_Germany> .
+
+<http://aksw.org/N3/Reuters-128/66#char=886,893> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Holland" ;
+    nif:beginIndex "886"^^xsd:nonNegativeInteger ;
+    nif:endIndex "893"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/66> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Netherlands> .
+
+<http://aksw.org/N3/Reuters-128/66#char=933,938> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Japan" ;
+    nif:beginIndex "933"^^xsd:nonNegativeInteger ;
+    nif:endIndex "938"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/66> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Japan> .
+
+<http://aksw.org/N3/Reuters-128/66#char=970,975> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Tokyo" ;
+    nif:beginIndex "970"^^xsd:nonNegativeInteger ;
+    nif:endIndex "975"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/66> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Tokyo> .
+
+<http://aksw.org/N3/Reuters-128/66#char=981,985> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "U.S." ;
+    nif:beginIndex "981"^^xsd:nonNegativeInteger ;
+    nif:endIndex "985"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/66> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/United_States> .
+
+<http://aksw.org/N3/Reuters-128/66#char=990,996> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "London" ;
+    nif:beginIndex "990"^^xsd:nonNegativeInteger ;
+    nif:endIndex "996"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/66> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/London> .
+
+<http://aksw.org/N3/Reuters-128/71#char=0,8> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Honduras" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "8"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/71> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Honduras> .
+
+<http://aksw.org/N3/Reuters-128/64#char=0,26> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Photographic Sciences Corp" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "26"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/64> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/PSC_Inc.> .
+
+<http://aksw.org/N3/Reuters-128/16#char=0,21> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Toronto Dominion Bank" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "21"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/16> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Toronto-Dominion_Bank> .
+
+<http://aksw.org/N3/Reuters-128/16#char=156,172> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Hambros Bank Ltd" ;
+    nif:beginIndex "156"^^xsd:nonNegativeInteger ;
+    nif:endIndex "172"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/16> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Hambros_Bank> .
+
+<http://aksw.org/N3/Reuters-128/16#char=278,284> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "London" ;
+    nif:beginIndex "278"^^xsd:nonNegativeInteger ;
+    nif:endIndex "284"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/16> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/London> .
+
+<http://aksw.org/N3/Reuters-128/11#char=211,217> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "France" ;
+    nif:beginIndex "211"^^xsd:nonNegativeInteger ;
+    nif:endIndex "217"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/11> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/France> .
+
+<http://aksw.org/N3/Reuters-128/11#char=265,277> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "West-Germany" ;
+    nif:beginIndex "265"^^xsd:nonNegativeInteger ;
+    nif:endIndex "277"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/11> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/West_Germany> .
+
+<http://aksw.org/N3/Reuters-128/11#char=289,296> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Belgium" ;
+    nif:beginIndex "289"^^xsd:nonNegativeInteger ;
+    nif:endIndex "296"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/11> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Belgium> .
+
+<http://aksw.org/N3/Reuters-128/11#char=308,313> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Spain" ;
+    nif:beginIndex "308"^^xsd:nonNegativeInteger ;
+    nif:endIndex "313"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/11> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Spain> .
+
+<http://aksw.org/N3/Reuters-128/11#char=327,334> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Denmark" ;
+    nif:beginIndex "327"^^xsd:nonNegativeInteger ;
+    nif:endIndex "334"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/11> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Denmark> .
+
+<http://aksw.org/N3/Reuters-128/11#char=4,17> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "EC Commission" ;
+    nif:beginIndex "4"^^xsd:nonNegativeInteger ;
+    nif:endIndex "17"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/11> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/European_Commission> .
+
+<http://aksw.org/N3/Reuters-128/77#char=0,4> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "J.P." ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "4"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/77> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/J._P._Morgan> .
+
+<http://aksw.org/N3/Reuters-128/77#char=1531,1537> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Brazil" ;
+    nif:beginIndex "1531"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1537"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/77> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Brazil> .
+
+<http://aksw.org/N3/Reuters-128/77#char=1819,1825> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Morgan" ;
+    nif:beginIndex "1819"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1825"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/77> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/J._P._Morgan> .
+
+<http://aksw.org/N3/Reuters-128/77#char=211,217> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Brazil" ;
+    nif:beginIndex "211"^^xsd:nonNegativeInteger ;
+    nif:endIndex "217"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/77> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Brazil> .
+
+<http://aksw.org/N3/Reuters-128/77#char=2185,2191> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Brazil" ;
+    nif:beginIndex "2185"^^xsd:nonNegativeInteger ;
+    nif:endIndex "2191"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/77> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Brazil> .
+
+<http://aksw.org/N3/Reuters-128/77#char=2432,2438> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Morgan" ;
+    nif:beginIndex "2432"^^xsd:nonNegativeInteger ;
+    nif:endIndex "2438"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/77> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/J._P._Morgan> .
+
+<http://aksw.org/N3/Reuters-128/77#char=426,432> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Morgan" ;
+    nif:beginIndex "426"^^xsd:nonNegativeInteger ;
+    nif:endIndex "432"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/77> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/J._P._Morgan> .
+
+<http://aksw.org/N3/Reuters-128/77#char=5,22> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Morgan and Co Inc" ;
+    nif:beginIndex "5"^^xsd:nonNegativeInteger ;
+    nif:endIndex "22"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/77> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/J._P._Morgan> .
+
+<http://aksw.org/N3/Reuters-128/45#char=182,221> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "U.N.s Food and Agriculture Organisation" ;
+    nif:beginIndex "182"^^xsd:nonNegativeInteger ;
+    nif:endIndex "221"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/45> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Food_and_Agriculture_Organization> .
+
+<http://aksw.org/N3/Reuters-128/45#char=285,299> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Edouard Saouma" ;
+    nif:beginIndex "285"^^xsd:nonNegativeInteger ;
+    nif:endIndex "299"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/45> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Edouard_Saouma> .
+
+<http://aksw.org/N3/Reuters-128/45#char=305,323> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "sub-Saharan Africa" ;
+    nif:beginIndex "305"^^xsd:nonNegativeInteger ;
+    nif:endIndex "323"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/45> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Sub-Saharan_Africa> .
+
+<http://aksw.org/N3/Reuters-128/45#char=391,399> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Far East" ;
+    nif:beginIndex "391"^^xsd:nonNegativeInteger ;
+    nif:endIndex "399"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/45> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Far_East> .
+
+<http://aksw.org/N3/Reuters-128/45#char=549,555> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Saouma" ;
+    nif:beginIndex "549"^^xsd:nonNegativeInteger ;
+    nif:endIndex "555"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/45> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Edouard_Saouma> .
+
+<http://aksw.org/N3/Reuters-128/57#char=0,21> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Reynolds and Reynolds" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "21"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/57> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/The_Reynolds_and_Reynolds_Company> .
+
+<http://aksw.org/N3/Reuters-128/57#char=198,206> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Reynolds" ;
+    nif:beginIndex "198"^^xsd:nonNegativeInteger ;
+    nif:endIndex "206"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/57> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/The_Reynolds_and_Reynolds_Company> .
+
+<http://aksw.org/N3/Reuters-128/57#char=84,91> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Detroit" ;
+    nif:beginIndex "84"^^xsd:nonNegativeInteger ;
+    nif:endIndex "91"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/57> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Detroit> .
+
+<http://aksw.org/N3/Reuters-128/35#char=0,28> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Moodys Investors Service Inc" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "28"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/35> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Moody's_Investors_Service> .
+
+<http://aksw.org/N3/Reuters-128/35#char=129,156> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Avco Financial Services Inc" ;
+    nif:beginIndex "129"^^xsd:nonNegativeInteger ;
+    nif:endIndex "156"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/35> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Avco> .
+
+<http://aksw.org/N3/Reuters-128/35#char=168,177> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Avco Corp" ;
+    nif:beginIndex "168"^^xsd:nonNegativeInteger ;
+    nif:endIndex "177"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/35> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Avco> .
+
+<http://aksw.org/N3/Reuters-128/35#char=179,193> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Avco Financial" ;
+    nif:beginIndex "179"^^xsd:nonNegativeInteger ;
+    nif:endIndex "193"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/35> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Avco> .
+
+<http://aksw.org/N3/Reuters-128/35#char=255,261> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Moodys" ;
+    nif:beginIndex "255"^^xsd:nonNegativeInteger ;
+    nif:endIndex "261"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/35> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Moody's_Investors_Service> .
+
+<http://aksw.org/N3/Reuters-128/35#char=461,476> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Avco Financials" ;
+    nif:beginIndex "461"^^xsd:nonNegativeInteger ;
+    nif:endIndex "476"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/35> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Avco> .
+
+<http://aksw.org/N3/Reuters-128/40#char=0,34> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "The Readers Digest Association Inc" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "34"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/40> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/The_Reader's_Digest_Association> .
+
+<http://aksw.org/N3/Reuters-128/40#char=122,155> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Welsh, Carson, Anderson and Stowe" ;
+    nif:beginIndex "122"^^xsd:nonNegativeInteger ;
+    nif:endIndex "155"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/40> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Welsh,_Carson,_Anderson_%26_Stowe> .
+
+<http://aksw.org/N3/Reuters-128/40#char=195,209> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Readers Digest" ;
+    nif:beginIndex "195"^^xsd:nonNegativeInteger ;
+    nif:endIndex "209"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/40> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/The_Reader's_Digest_Association> .
+
+<http://aksw.org/N3/Reuters-128/40#char=64,89> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Source Telecomputing Corp" ;
+    nif:beginIndex "64"^^xsd:nonNegativeInteger ;
+    nif:endIndex "89"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/40> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/The_Source_(online_service)> .
+
+<http://aksw.org/N3/Reuters-128/34#char=169,192> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Social Affairs Ministry" ;
+    nif:beginIndex "169"^^xsd:nonNegativeInteger ;
+    nif:endIndex "192"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/34> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Ministry_of_Social_Affairs_and_Employment_(Netherlands)> .
+
+<http://aksw.org/N3/Reuters-128/76#char=0,27> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Investment Technologies Inc" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "27"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/76> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Investment_Technology_Group> .
+
+<http://aksw.org/N3/Reuters-128/76#char=130,153> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Investment Technologies" ;
+    nif:beginIndex "130"^^xsd:nonNegativeInteger ;
+    nif:endIndex "153"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/76> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Investment_Technology_Group> .
+
+<http://aksw.org/N3/Reuters-128/76#char=490,513> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Investment Technologies" ;
+    nif:beginIndex "490"^^xsd:nonNegativeInteger ;
+    nif:endIndex "513"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/76> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Investment_Technology_Group> .
+
+<http://aksw.org/N3/Reuters-128/10#char=0,31> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "NV Philips Gloeilampenfabrieken" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "31"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/10> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Philips> .
+
+<http://aksw.org/N3/Reuters-128/10#char=116,123> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Philips" ;
+    nif:beginIndex "116"^^xsd:nonNegativeInteger ;
+    nif:endIndex "123"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/10> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Philips> .
+
+<http://aksw.org/N3/Reuters-128/10#char=133,150> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Cor van der Klugt" ;
+    nif:beginIndex "133"^^xsd:nonNegativeInteger ;
+    nif:endIndex "150"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/10> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://de.dbpedia.org/resource/Cornelis_van_der_Klugt> .
+
+<http://aksw.org/N3/Reuters-128/10#char=203,208> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Dutch" ;
+    nif:beginIndex "203"^^xsd:nonNegativeInteger ;
+    nif:endIndex "208"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/10> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Dutch> .
+
+<http://aksw.org/N3/Reuters-128/10#char=303,309> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "NASDAQ" ;
+    nif:beginIndex "303"^^xsd:nonNegativeInteger ;
+    nif:endIndex "309"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/10> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/NASDAQ> .
+
+<http://aksw.org/N3/Reuters-128/10#char=333,337> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "NYSE" ;
+    nif:beginIndex "333"^^xsd:nonNegativeInteger ;
+    nif:endIndex "337"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/10> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/New_York_Stock_Exchange> .
+
+<http://aksw.org/N3/Reuters-128/10#char=339,346> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Philips" ;
+    nif:beginIndex "339"^^xsd:nonNegativeInteger ;
+    nif:endIndex "346"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/10> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Philips> .
+
+<http://aksw.org/N3/Reuters-128/10#char=377,385> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "New York" ;
+    nif:beginIndex "377"^^xsd:nonNegativeInteger ;
+    nif:endIndex "385"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/10> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/New_York> .
+
+<http://aksw.org/N3/Reuters-128/10#char=426,430> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "U.S." ;
+    nif:beginIndex "426"^^xsd:nonNegativeInteger ;
+    nif:endIndex "430"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/10> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/United_States> .
+
+<http://aksw.org/N3/Reuters-128/10#char=464,471> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "Philips" ;
+    nif:beginIndex "464"^^xsd:nonNegativeInteger ;
+    nif:endIndex "471"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/10> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/Philips> .
+
+<http://aksw.org/N3/Reuters-128/10#char=79,102> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "New York Stock Exchange" ;
+    nif:beginIndex "79"^^xsd:nonNegativeInteger ;
+    nif:endIndex "102"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/10> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/New_York_Stock_Exchange> .
+
+<http://aksw.org/N3/Reuters-128/54#char=0,35> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "American Telephone and Telegraph Co" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "35"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/54> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/AT%26T_Corporation> .
+
+<http://aksw.org/N3/Reuters-128/54#char=248,251> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "ATT" ;
+    nif:beginIndex "248"^^xsd:nonNegativeInteger ;
+    nif:endIndex "251"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://aksw.org/N3/Reuters-128/54> ;
+    itsrdf:taAnnotatorsRef <http://kit.edu/agnos> ;
+    itsrdf:taIdentRef <http://dbpedia.org/resource/AT%26T_Corporation> .
+
+<http://aksw.org/N3/Reuters-128/98> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "249"^^xsd:nonNegativeInteger ;
+    nif:isString "Entourage International Inc said it plans to package solid perfume in a lipstick tube and retail the product, called Amadeus, for 15 dlrs. The company said the product was first test marketed in Feburary after six months of research and development." .
+
+<http://aksw.org/N3/Reuters-128/39> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "184"^^xsd:nonNegativeInteger ;
+    nif:isString "AutoSpa corp said it will redeem all its common stock purchase warrants on May Five at 7.5 cts each. Through May Four, each warrant may be exercised into one common share at 1.75 dlrs." .
+
+<http://aksw.org/N3/Reuters-128/52> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "263"^^xsd:nonNegativeInteger ;
+    nif:isString "Nantucket Industries Inc said James Adams has been named president of its hosiery division, replacing John Wineapple, and Terry Hampton has been named vice president of manufacturing for the division, replacing Howard Fromkin. No reason was given for the changes." .
+
+<http://aksw.org/N3/Reuters-128/13> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "532"^^xsd:nonNegativeInteger ;
+    nif:isString "Todays dollar convertible eurobond for Federal Realty Investment Trust has been increased to 100 mln dlrs from the initial 75 mln, lead manager Salomon Brothers International said. The coupon has been fixed at 5-1/4 pct compared with the indicated range of 5-1/4 to 5-1/2 pct. The conversion price has been fixed at 30-5/8 dlrs compared with last nights close in the U.S. Of 25-1/2 dlrs. This represents a premium of 20 pct. The put option after seven years was priced at 120 pct to give the investor a yield to the put of 7.53 pct." .
+
+<http://aksw.org/N3/Reuters-128/26> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "421"^^xsd:nonNegativeInteger ;
+    nif:isString "Asarco Inc said it completed the sale of four mln shares of Asarco common stock to an underwriting group led by First Boston Corp. The underwriters sold the shares to the public at a price of 22.50 dlrs a share, the minerals and energy company said. Proceeds of about 86 mln dlrs will be used to reduce outstanding debt, it said. The offering included 3.5 mln shares announced April 1 and 500,000 to cover overallotments." .
+
+<http://aksw.org/N3/Reuters-128/71> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "763"^^xsd:nonNegativeInteger ;
+    nif:isString "Honduras will tender April 13 under Public Law 480 for approximately 52,500 tonnes of various wheats in bulk, an agent for the country said. The agent said Honduras is seeking U.S. no. 2 or better northern spring/DNS, with 14 pct protein minimum and 13 pct moisture maximum, and U.S. no. 2 or better hard red winter, with 12 pct protein minimum and 13 pct moisture maximum. The agent said NS/DNS laydays include July 1-10 for 7,500-9,500 tonnes, Aug 1-10 for 8,000-10,000 tonnes, and Sept 15-25 for 12,500-14,500 tonnes. HRW laydays include June 20-30 on 5,000-7,000 tonnes, July 15-25 for 6,500-8,500 tonnes, and September 15-25 for 7,000-9,000 tonnes. Offers are due by 1550 hrs EDT, April 13, and will remain valid until 1000 hrs EDT, April 14, the agent said." .
+
+<http://aksw.org/N3/Reuters-128/64> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "256"^^xsd:nonNegativeInteger ;
+    nif:isString "Photographic Sciences Corp said it has formed a new Metrology Division for the production and marketing of surface profiler measurement equipment. It said the equipment, a new market area, should add significantly to company revenues in the next few years." .
+
+<http://aksw.org/N3/Reuters-128/34> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "912"^^xsd:nonNegativeInteger ;
+    nif:isString "Dutch seasonally adjusted unemployment rose in the month to end-March to a total 693,000 from 690,600 at end-February, but was well down from 730,100 at end-March 1986, Social Affairs Ministry figures show. The figure for male jobless rose by 2,000 in the month to 436,500 compared with 470,700 a year earlier. The figure for women was 256,500 at end-March against 256,100 a month earlier and 259,400 at end-March 1986. On an unadjusted basis total unemployment fell by 16,500 in the month to end-March to 692,200. In March 1986 the figure was 725,000. A ministry spokesman said the unadjusted figures showed a smaller than usual seasonal decrease for the time of year, because of particularly cold weather delaying work in the building industry. He said this explained the increase in the adjusted statistics. Total vacancies available rose by 1,900 to 26,300 at end-March. A year earlier the figure was 28,763." .
+
+<http://aksw.org/N3/Reuters-128/101> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "484"^^xsd:nonNegativeInteger ;
+    nif:isString "Northern Telecom said it shipped the first digital central office switching system it sold to Nippon Telegraph and Telephone under the terms of a 250 mln dlrs supply agreement. The agreement began with the signing of a letter of understanding in December 1985. THe formal seven-year agreement was signed in May 1986. The Northern Telecom systems is the first U.S.-manufactured digital central office switching systems to be installed in the Japanese public telephone network, it said." .
+
+<http://aksw.org/N3/Reuters-128/20> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "360"^^xsd:nonNegativeInteger ;
+    nif:isString "Hanover Insurance Co said its stockholders approved a two-for-one stock split. As a result of the split, Hanover said it increases the number of authorized shares of capital stock from 10.4 mln, having a par value of one dlr, to 20.9 mln, also having a par value of one dlr. The stock split is payable April 30 to stockholders of record April 10, Hanover said." .
+
+<http://aksw.org/N3/Reuters-128/21> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "262"^^xsd:nonNegativeInteger ;
+    nif:isString "Federal Paperboard Co Inc said it has entered into an agreement with Ozaki Trading Co Ltd of Osaka, Japan, allowing Ozaki to represent Federal Paperboards bleached paperboard sales in Japan. Federal added it will be opening an office in Japan in the near future." .
+
+<http://aksw.org/N3/Reuters-128/54> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "544"^^xsd:nonNegativeInteger ;
+    nif:isString "American Telephone and Telegraph Co said it has developed superconducting wires that can easily be formed into coils. It said when cooled to 91 degrees Kelvin, or 296 degrees below zero Fahrenheit, the wires conduct electricity without resistance. ATT said the wires are made of a barium-yttrium-copper oxide compound. It said while many engineering details remain to be worked out, The ability to draw the material into fine wire and to wind the wire into coils and other forms is key for many superconductor applications now being considered." .
+
+<http://aksw.org/N3/Reuters-128/41> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "481"^^xsd:nonNegativeInteger ;
+    nif:isString "Avnet Inc said it filed with the Securities and Exchange Commission a registration statement for a proposed public offering of 150 mln dlrs of convertible subordinated debentures due 2012. Avnet said it will use the net proceeds for general working capital purposes and the anticipated domestic and foreign expansion of its distribution, assembly and manufacturing businesses. The company said an investment banking group managed by Dillon Read and Co Inc will handle the offering." .
+
+<http://aksw.org/N3/Reuters-128/9> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1676"^^xsd:nonNegativeInteger ;
+    nif:isString "Demand for shares in state-owned engine maker Rolls Royce Plc is expected to be substantial when the government privatises it at the end of April, Christopher Clark of the groups bankers Samuel Montagu and Sons Ltd said. He told a press conference after the release of an initial prospectus for the float that the issue would be offered to U.K. Institutions, company employees and the general public. As in previous flotations, clawback arrangements would be made if public subscriptions exceeded initial allocations. He declined to say how the shares would be allocated beyond saying that a significant proportion would go to institutions. A decision on what percentage would go to each sector would be made shortly before the sale price was announced on April 28. Minimum subscription would be for 400 shares with payment in two tranches, again a method broadly in line with previous privatisations. Chairman Sir Francis Tombs denied suggestions that Rolls was a stock that should be left to the institutions. He noted that although the aircraft industry was cyclical, Rolls had several operations -- such as spare parts and military equipment -- that evened out the swings. Rolls 1986 research and development expenditure in 1986 was 255 mln stg and could be expected in the future to vary according to changes in turnover. He noted that net research and development expenditure was written off in the year it occurred, a policy that received inadequate recognition in one or two of the more extravagant forecasts of future profits. He made no forecast himself. In 1986, Rolls reported that pretax profit rose 48 pct to 120 mln stg on turnover 12 pct higher at 1.8 billion." .
+
+<http://aksw.org/N3/Reuters-128/16> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "409"^^xsd:nonNegativeInteger ;
+    nif:isString "Toronto Dominion Bank, Nassau Branch is issuing a 40 mln Australian dlr eurobond due May 15, 1990 paying 14-1/2 pct and priced at 101-3/8 pct, lead manager Hambros Bank Ltd said. The non-callable bond is available in denominations of 1,000 Australian dlrs and will be listed in London. The selling concession is one pct, while management and underwriting combined will pay 1/2 pct. The payment date is May 15." .
+
+<http://aksw.org/N3/Reuters-128/57> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "829"^^xsd:nonNegativeInteger ;
+    nif:isString "Reynolds and Reynolds said that it filed a coutersuit in the U.S. District Court in Detroit against Advanced Voice Technologies and that it denied all allegations in Advanceds March lawsuit against Reynolds. As previously reported, Advanceds suit charges Reynolds with pirating a computer-based voice messaging system for auto dealer departments using confidential information it received while test marketing the system for Advanced. In the countersuit, Reynolds claimed that Advanced used its proprietary inofrmation contrary to an agreement between the companies. Reynolds also said Advanced interfered with its plans to enter the market and compete with Advanced through a public relations campaign and other activities. Reynolds said its suit asked the court for injunctive and monetary relief based on Advanceds activities." .
+
+<http://aksw.org/N3/Reuters-128/76> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "764"^^xsd:nonNegativeInteger ;
+    nif:isString "Investment Technologies Inc said it will make available its online investment advisory service to Spear Securities Inc customers. Investment Technologies said that through a Spear rebate program, purchasers of the investment advisory service, VESTOR, can receive a cash rebate of up to the full subscription price of the investment advisory service from Spear Securities. Spears brokerage commission rebate program will allow money managers or individual investors who purchase VESTOR from Investment Technologies, or from other authorized distributors, to recive a rebate of the brokerage commissions, the company said. Each month Spear will send participating customers a check equal up to 25 pct of monthly commissions generated by the client account, it added." .
+
+<http://aksw.org/N3/Reuters-128/18> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "423"^^xsd:nonNegativeInteger ;
+    nif:isString "Helen of Troy Corp said it filed with the Securities and Exchange Commission a registration statement covering a 20 mln dlr issue of covertible subordinated debentures due 2007. Proceeds will be used for general corporate purposes, including possible repayment of bank debt, product development and possible acquisitions, Helen of Troy said. The company named Drexel Burnham Lambert Inc as sole underwriter of the offering." .
+
+<http://aksw.org/N3/Reuters-128/2> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "284"^^xsd:nonNegativeInteger ;
+    nif:isString "Canadian Bashaw Leduc Oil and Gas Ltd said it agreed to merge with Erskine Resources Ltd. Terms were not disclosed. Ownership of the combined company with 18.8 pct for the current shareholders of Canadian Bashaw and 81.2 pct to the current shareholders of Erskine, the companies said." .
+
+<http://aksw.org/N3/Reuters-128/40> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "339"^^xsd:nonNegativeInteger ;
+    nif:isString "The Readers Digest Association Inc said it sold its subsidiary, Source Telecomputing Corp, to the venture capital firm of Welsh, Carson, Anderson and Stowe. The purchase price was not disclosed, Readers Digest said. It said it purchased an 80 pct stake in Source in 1980 and earned an unspecified profit on 14 mln dlrs in revenues in 1986." .
+
+<http://aksw.org/N3/Reuters-128/74> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "558"^^xsd:nonNegativeInteger ;
+    nif:isString "Ameribanc Inc is raising 15 mln dlrs through an offering of convertible subordinated capital notes due 1995 with an eight pct coupon and par pricing, said lead manager Stifel, Nicolaus and Co Inc. The debentures are convertible into the companys common stock at 18.75 dlrs per share, representing a premium of 27.1 pct over the stock price when terms on the debt were set. The issue is non-callable for two years. It was not rated by Moodys Investors or Standard and Poors at the time of the pricing, Stifel said. Burns, Pauli and Co Inc co-managed the deal." .
+
+<http://aksw.org/N3/Reuters-128/45> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "908"^^xsd:nonNegativeInteger ;
+    nif:isString "World output of staple foods maintained growth in 1986, following a record harvest the year before, and most of the increase was in developing countries, the director general of the U.N.s Food and Agriculture Organisation (FAO) said. Speaking to FAOs committee on world food security, Edouard Saouma said sub-Saharan Africa registered a cereal production increase of 3.6 pct in 1986 and the Far East also continued to increase production. Despite ample supplies worldwide, many countries face problems in paying for all the food they need, he said. Saouma said many of the developing worlds food problems were the result of chaotic world trade. He said it was vital to promote employment to improve the food-security situation of the poor, with policy reforms in developing countries to remove existing disincentives to production so that agriculture could play a greater role in stimulating economic growth." .
+
+<http://aksw.org/N3/Reuters-128/11> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "348"^^xsd:nonNegativeInteger ;
+    nif:isString "The EC Commission confirmed it granted export licences for 118,350 tonnes of current series white sugar at a maximum export rebate of 46.496 European Currency Units (ECUs) per 100 kilos. Out of this, traders in France received 34,500 tonnes, in the U.K. 37,800, in West-Germany 20,000, in Belgium 18,500, in Spain 5,800 and in Denmark 1,750 tonnes." .
+
+<http://aksw.org/N3/Reuters-128/35> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "560"^^xsd:nonNegativeInteger ;
+    nif:isString "Moodys Investors Service Inc said it affirmed the long-term debt ratings but cut the commercial paper to Prime-2 from Prime-1 of Avco Financial Services Inc, a unit of Avco Corp. Avco Financial has 2.5 billion dlrs of debt outstanding. For the paper cut, Moodys cited a higher risk profile inherent in the companys core business. Moodys said the affirmation reflected its assessment of a less diversified risk profile in the companys receivables. Affirmed were Avco Financials A-3 senior debt, Baa-2 senior subordinated debt and Baa-3 junior subordinated debt." .
+
+<http://aksw.org/N3/Reuters-128/105> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1870"^^xsd:nonNegativeInteger ;
+    nif:isString "The Chicago Mercantile Exchange, CME, said it has added a new chief compliance officer and will expand its regulatory surveillance program. Paul OKelly, currently assistant regional administrator of the Securities and Exchange Commission, was named vice-president of compliance for the exchange, the CME said. The expanded compliance program, which calls for an increase in the exchanges compliance budget and addition of staff, was in response to recent criticisms that the CMEs current surveillance was not able to keep up with increased demands of recent volatility and volume, the CME said. The new surveillance program calls for the addition of three floor investigators and five compliance investigators, the CME said. Some of the new staff will monitor the exchanges new Computerized Trade Reconstruction system, scheduled to start July 1. In addition, three computer programmers will be added to assist in regulatory support for the exchanges management information system department. Recent criticism has been especially directed at the CMEs Standard and Poors stock index futures and options division. A special membership referendum to prohibit CME members from filling customer orders and trading for their own account in S and P 500 futures and options will be voted on April 13. In a letter dated March 12, CME chairman John Sandner and Executive committee chairman Leo Melamed urged members to reject the referendum in favor a series of new rules. Included in the rule changes was the requirement that futures brokers in the S and P pit manually record all personal trades to the nearest minute, intended to enhance the effectiveness of surveillance and compliance functions, We made a promise to our members that we have kept, Melamed said in a release today. He said the new surveillance program represents a commitment to a vigorous enforcement policy." .
+
+<http://aksw.org/N3/Reuters-128/77> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "2444"^^xsd:nonNegativeInteger ;
+    nif:isString "J.P. Morgan and Co Inc said its first-quarter earnings fell by 3.2 pct, largely reflecting its previously announced decision to place on non-accrual status its 1.3 billion dlrs of medium- and long-term loans to Brazil. That decision, spurred by Brazils suspension of interest payments on February 20, reduced the quarters net income by 20 mln dlrs to 226.4 mln dlrs, compared with 233.9 mln in the first three months of 1986. Morgan also reported a loss of 1.8 mln dlrs from securities underwriting and trading, in contrast to a gain of 45.4 mln dlrs in the year-earlier period. In the fourth quarter of 1986, Morgan posted other trading losses of 5.5 mln dlrs because of setbacks in the trading and underwriting of Euromarket securities. Conditions in some sectors of the Euromarket remained difficult last quarter, with floating rate notes suffering heavy price falls, but a spokeswoman was unable to say whether Morgans trading losses were restricted to the Euromarket. On the positive side, Morgan reduced its provision for loan losses to 35 mln dlrs from 70 mln a year earlier. Foreign exchange trading income rose to 82 mln dlrs from 72.6 mln and trust income increased to 95.9 mln dlrs from 75.9 mln. Morgan said other operating income, mainly fees and commissions, rose to 102.2 mln dlrs from 88.4 mln, but net investment securities gains dropped to 43.1 mln from 58.1 mln. Net interest earnings were 490.4 mln dlrs in the first quarter, down from 499.4 mln a year earlier, and net yield fell to 2.79 pct from 3.20 pct. If Brazil had not been placed on non-accrual, which means that interest can be recorded as income only when payments are actually received, net interest earnings would have been 525.9 mln dlrs and net yield 2.99 pct. If Brazil does not resume payments, 1987 net would be cut by 72 mln dlrs, Morgan added. After the provision for loan losses, Morgans allowance for credit losses at the end of March totaled 953 mln dlrs compared with 910 mln at end-1986 and 815 mln a year earlier. It reported net recoveries of six mln dlrs after charge-offs of eight mln, compared with net charge-offs of 49 mln dlrs after recoveries of three mln a year earlier. Excluding Brazil, non-accruing loans at quarters end were 583 mln dlrs, down from 633 mln at end-1986 and 684 mln a year earlier. Non-interest expenses rose to 371.1 mln dlrs from 303.5 mln dlrs, with more than half the increase related to personnel costs, Morgan said." .
+
+<http://aksw.org/N3/Reuters-128/69> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1634"^^xsd:nonNegativeInteger ;
+    nif:isString "Major cocoa exporters are likely to limit sales in the weeks ahead in an effort to boost world prices, sources close to a meeting of the Cocoa Producers Alliance (CPA) said. The sources said the depressed world market had been one of the main topics discussed in a closed door meeting of the 11-member CPA which began on Monday. They said producers agreed that cutting sales would aid the buffer stock manager of a new international cocoa pact in his effort to support prices. Major cocoa producing and consuming nations agreed operation rules for the buffer stock at a meeting in London last month and the stock manager is expected to enter the market soon. Prices, under the weight of three successive cocoa surpluses, recently fell to the level at which the manager has to buy cocoa under stock rules. The buffer stock aims to keep prices within a pre-set range by buying when prices fall and selling when they rise. The worlds cocoa price at present is just not interesting, commented one delegate representing a major CPA producer. Another source said that with much of the 1986/87 (October-September) world cocoa crop sold, limiting sales in the near term concerns essentially next years harvest. The sources noted, however, that the cocoa industry in Brazil, the worlds number two producer, is in private hands. This means limiting sales is more difficult than in major West African producers, where sales are made or authorized by commodity marketing boards. The CPA includes the worlds top three producers, Ivory Coast, Brazil and Ghana, and accounts for 80 pct of all output. The meeting here is due to end tomorrow evening." .
+
+<http://aksw.org/N3/Reuters-128/10> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "488"^^xsd:nonNegativeInteger ;
+    nif:isString "NV Philips Gloeilampenfabrieken PGLO.AS shares are due to start trading on the New York Stock Exchange on April 14, Philips chairman Cor van der Klugt told the annual shareholders meeting. In March, the Dutch electronics group announced it would end its current over the counter listing on the New York NASDAQ system and move to the NYSE. Philips said the big board listing in New York is expected to boost its profile in the U.S., Where 10 pct of all outstanding Philips shares are held." .
+
+<http://aksw.org/N3/Reuters-128/36> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1146"^^xsd:nonNegativeInteger ;
+    nif:isString "Top officials of leading industrial nations arrived at the U.S. Treasury main building to begin a meeting of the Group of Five. Officials seen arriving by Reuter correspondents included West German Finance Minister Gerhard Stoltenberg and Bundesbank President Karl Otto Poehl, French Finance Minister Edouard Balladur and his central banker Jacques de Larosiere. Also seen arriving were Japanese Finance Minister Kiichi Miyazawa and Japans central bank governor Satoshi Sumita and British Chancellor of the Exchequer and central bank governor Robin Leigh Pemberton. There was no immediate sign of Italian or Canadian officials. Monetary sources have said a fully blown meeting of the Group of Seven is expected to begin around 3 p.m. local time (1900 gmt) and last at least until 6 p.m. (2200 gmt), when a communique is expected to be issued. Italian sources said Italian acting Finance Minister Giovanni Goria met Treasury Secretary James Baker last night. At those talks Baker apparently convinced Goria, who declined to attend the February meeting of the Group of Seven in Paris, that Italy would participate fully in any meaningful decisions." .
+
+<http://aksw.org/N3/Reuters-128/66> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1268"^^xsd:nonNegativeInteger ;
+    nif:isString "Britain intends to negotiate further agreements on international securities regulation to match those now in force with the U.S. And Japan, government sources said. The Department of Trade and Industry said earlier it had concluded a memorandum of understanding with Japans Finance Ministry to swap supervisory and investigatory information. The agreement covers stocks, shares and government bonds, but not commodity futures, whose regulation in Japan does not come under the Finance Ministry. It therefore does not cover some transactions on the London International Financial Futures Exchange and the London commodities and metal exchanges. The DTI said it hoped to seek further understandings with other countries which met in the U.K. Last December. The meeting involved delegates from the U.K., Switzerland, the U.S., Canada, Australia, Hong Kong, Japan, France, West Germany and Holland. Government sources said the deal with Japan completes arrangements linking Tokyo, the U.S. And London. A U.K. Agreement with the U.S. Securities and Exchange Commission (SEC) was signed last September. Todays agreement will deal with requests for information on a case by case basis, U.K. Government sources said. It is not legally binding and comes into force immediately." .
+
